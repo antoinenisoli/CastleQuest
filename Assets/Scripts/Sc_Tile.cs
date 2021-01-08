@@ -3,28 +3,55 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using DG.Tweening;
+
+public enum TileType
+{
+    Blue,
+    Green,
+    Red,
+    Yellow,
+}
 
 public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     Sc_TileGenerator generator => FindObjectOfType<Sc_TileGenerator>();
     Camera mainCam => Camera.main;
-    public SpriteRenderer spr => GetComponentInChildren<SpriteRenderer>();
+    SpriteRenderer spriteRender => GetComponentInChildren<SpriteRenderer>();
 
+    public TileType myType;
+    public Vector2Int coordinates;
     [SerializeField] TextMeshPro myText;
-    Vector3 draggedPos;
-    Vector3 basePos;
-    bool inDrag;
-    public Vector2 coordinates;
     public int scoreValue = 100;
     [SerializeField] GameObject fx;
     [SerializeField] bool debug;
+    [SerializeField] Material glowSprite;
+    Material baseMat;
 
-    Vector3 mdr;
-    Vector3 mdr2;
+    Vector3 mousePos;
+    Vector3 mouseNextPos;
+    public bool highlight;
+    bool inDrag;
 
-    public bool IsSameOf(Sc_Tile obj1, Sc_Tile obj2)
+    private void Start()
     {
-        if (obj1.spr == obj2.spr)
+        baseMat = spriteRender.material;
+    }
+
+    public void Creation(Sprite spr, int index)
+    {
+        Vector3 baseScale = transform.localScale;
+        transform.localScale = Vector3.one * 0.01f;
+        transform.DOScale(baseScale, 0.5f);
+
+        System.Array array = System.Enum.GetValues(typeof(TileType));
+        spriteRender.sprite = spr;
+        myType = (TileType)array.GetValue(index);
+    }
+
+    public bool IsSameOf(Sc_Tile obj2)
+    {
+        if (myType == obj2.myType)
             return true;
         else
             return false;
@@ -33,66 +60,50 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
     public void OnDrag(PointerEventData eventData)
     {
         if (!inDrag)
-        {
-            basePos = transform.position;
             inDrag = true;
-        }
 
-        draggedPos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        draggedPos.z = 0;
+        mouseNextPos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+        Vector2Int direction = Vector2Int.zero;
+        if ((mousePos - mouseNextPos).normalized.x > 0.9f)
+            direction = new Vector2Int(-1, 0);
+        else if ((mousePos - mouseNextPos).normalized.x < -0.9f)
+            direction = new Vector2Int(1, 0);
+        else if ((mousePos - mouseNextPos).normalized.y > 0.9f)
+            direction = new Vector2Int(0, 1);
+        else if ((mousePos - mouseNextPos).normalized.y < -0.9f)
+            direction = new Vector2Int(0, -1);
 
-        if (draggedPos.x > mainCam.orthographicSize / 2)
-            draggedPos.x = mainCam.orthographicSize / 2;
-
-        if (draggedPos.x < -mainCam.orthographicSize / 2)
-            draggedPos.x = -mainCam.orthographicSize / 2;
-
-        Vector3 screenEdges = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
-        if (draggedPos.y > screenEdges.y)
-            draggedPos.y = screenEdges.y;
-
-        if (draggedPos.y < screenEdges.y - mainCam.orthographicSize*2)
-            draggedPos.y = screenEdges.y - mainCam.orthographicSize*2;
-
-        transform.position = draggedPos;
-        generator.GetClosest(gameObject);
-    }
-
-    private void OnDestroy()
-    {
-        GameObject newFX = Instantiate(fx, transform.position, Quaternion.Euler(90,0,0));
-        newFX.GetComponent<ParticleSystem>().textureSheetAnimation.SetSprite(0, spr.sprite);
-    }
-
-    private void OnMouseDown()
-    {
-        mdr = mainCam.ScreenToWorldPoint(Input.mousePosition);
-    }
-
-    private void OnMouseUp()
-    {
-        mdr2 = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        print((mdr - mdr2).normalized);
-
-        if ((mdr - mdr2).normalized.x > 0.9f)
-            print("left"); //left
-        else if ((mdr - mdr2).normalized.x < -0.9f)
-            print("right"); //right
-        else if ((mdr - mdr2).normalized.y > 0.9f)
-            print("down"); //down
-        else if ((mdr - mdr2).normalized.y < -0.9f)
-            print("up"); //up
+        generator.highlightedTile = generator.GetAdjacentCell(direction, this);
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        inDrag = false;
-        generator.Swap(gameObject, basePos);
+        if (generator.highlightedTile != null)
+            generator.Swap(this, generator.highlightedTile.GetComponent<Sc_Tile>());
+
+        generator.highlightedTile = null;
+    }
+
+    public void Death()
+    {
+        float delay = 0.5f;
+        transform.DOScale(transform.localScale * 1.4f, delay);
+        transform.DOScale(0.01f, delay/2).SetDelay(delay/2);
+        Destroy(gameObject, delay);
+        GameObject newFX = Instantiate(fx, transform.position, Quaternion.Euler(90, 0, 0));
+        newFX.GetComponent<ParticleSystem>().textureSheetAnimation.SetSprite(0, spriteRender.sprite);
+    }
+
+    private void OnMouseDown()
+    {
+        mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
     }
 
     private void Update()
     {
         myText.gameObject.SetActive(debug);
         myText.text = "[" + coordinates.x + "," + coordinates.y + "]";
+
+        spriteRender.material = highlight ? glowSprite : baseMat;
     }
 }
