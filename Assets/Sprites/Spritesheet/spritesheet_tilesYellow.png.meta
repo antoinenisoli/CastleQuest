@@ -1,0 +1,1868 @@
+fileFormatVersion: 2
+guid: 782792722e426e24fb5e089ffef17e6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2847860777891148627
+    second: tileYellow_01.png
+  - first:
+      213: -8382536148026410902
+    second: tileYellow_02.png
+  - first:
+      213: -1889212009442808706
+    second: tileYellow_03.png
+  - first:
+      213: 7042704538294798599
+    second: tileYellow_04.png
+  - first:
+      213: -2348421414610082711
+    second: tileYellow_05.png
+  - first:
+      213: 6514676956739810139
+    second: tileYellow_06.png
+  - first:
+      213: -5936439238485809552
+    second: tileYellow_07.png
+  - first:
+      213: -8200310857012928166
+    second: tileYellow_08.png
+  - first:
+      213: 3179551945332115056
+    second: tileYellow_09.png
+  - first:
+      213: -630629454212198762
+    second: tileYellow_10.png
+  - first:
+      213: -706386089059801544
+    second: tileYellow_11.png
+  - first:
+      213: -1230948977220809203
+    second: tileYellow_12.png
+  - first:
+      213: 5832836310602709607
+    second: tileYellow_13.png
+  - first:
+      213: 8886588022433142554
+    second: tileYellow_14.png
+  - first:
+      213: 446919720851970936
+    second: tileYellow_15.png
+  - first:
+      213: -4146288022912425562
+    second: tileYellow_16.png
+  - first:
+      213: 1622750800822749391
+    second: tileYellow_17.png
+  - first:
+      213: 8394949387266846292
+    second: tileYellow_18.png
+  - first:
+      213: -4772593579519856370
+    second: tileYellow_19.png
+  - first:
+      213: 7112398249527718940
+    second: tileYellow_20.png
+  - first:
+      213: -51092293479927539
+    second: tileYellow_21.png
+  - first:
+      213: -6401465955840094713
+    second: tileYellow_22.png
+  - first:
+      213: -5529889409820704584
+    second: tileYellow_23.png
+  - first:
+      213: -4789428847557010986
+    second: tileYellow_24.png
+  - first:
+      213: 6967637375709387879
+    second: tileYellow_25.png
+  - first:
+      213: 2916400406123985662
+    second: tileYellow_26.png
+  - first:
+      213: -3315398663414466689
+    second: tileYellow_27.png
+  - first:
+      213: 5669241715687047967
+    second: tileYellow_28.png
+  - first:
+      213: 6655531746763411716
+    second: tileYellow_29.png
+  - first:
+      213: -8910720347504949281
+    second: tileYellow_30.png
+  - first:
+      213: -702210408434201140
+    second: tileYellow_31.png
+  - first:
+      213: -2703123512604408715
+    second: tileYellow_32.png
+  - first:
+      213: -4929475219333935022
+    second: tileYellow_33.png
+  - first:
+      213: 3686076404613765544
+    second: tileYellow_34.png
+  - first:
+      213: -5713561006604265571
+    second: tileYellow_35.png
+  - first:
+      213: -1706607348523229096
+    second: tileYellow_36.png
+  - first:
+      213: 6248750642875908435
+    second: tileYellow_37.png
+  - first:
+      213: 5067280271035168841
+    second: tileYellow_38.png
+  - first:
+      213: 3063330126867928848
+    second: tileYellow_39.png
+  - first:
+      213: -3041527757130608325
+    second: tileYellow_40.png
+  - first:
+      213: -9158148766070582483
+    second: tileYellow_41.png
+  - first:
+      213: -2537131112543368131
+    second: tileYellow_42.png
+  - first:
+      213: 3270130732256565946
+    second: tileYellow_43.png
+  - first:
+      213: 6564871732295506012
+    second: tileYellow_44.png
+  - first:
+      213: -7357728040425579288
+    second: tileYellow_45.png
+  - first:
+      213: 7417261620034816788
+    second: tileYellow_46.png
+  - first:
+      213: -4462810560853290186
+    second: tileYellow_47.png
+  - first:
+      213: -4016220298224841870
+    second: tileYellow_48.png
+  - first:
+      213: -3900120307981722092
+    second: tileYellow_49.png
+  - first:
+      213: -1658034709604185669
+    second: tileYellow_50.png
+  - first:
+      213: -5621927611937188028
+    second: tileYellow_51.png
+  - first:
+      213: 7166985673991786382
+    second: tileYellow_52.png
+  - first:
+      213: -6574075084887320202
+    second: tileYellow_53.png
+  - first:
+      213: 4827880159818180023
+    second: tileYellow_54.png
+  - first:
+      213: 4823068745372878261
+    second: tileYellow_55.png
+  - first:
+      213: 603002913513649730
+    second: tileYellow_56.png
+  - first:
+      213: -3068188354376171626
+    second: tileYellow_57.png
+  - first:
+      213: 8863156296831048996
+    second: tileYellow_58.png
+  - first:
+      213: 6576525222131802038
+    second: tileYellow_59.png
+  - first:
+      213: 8928372149143547975
+    second: tileYellow_60.png
+  - first:
+      213: 7106142746644444297
+    second: tileYellow_61.png
+  - first:
+      213: -815741394957244587
+    second: tileYellow_62.png
+  - first:
+      213: 1688308605526040219
+    second: tileYellow_63.png
+  - first:
+      213: -5865913456946362011
+    second: tileYellow_64.png
+  - first:
+      213: 8501947079133944642
+    second: tileYellow_65.png
+  - first:
+      213: -8031005568658499902
+    second: tileYellow_66.png
+  - first:
+      213: 7971169011711237818
+    second: tileYellow_67.png
+  - first:
+      213: 1190613937389678165
+    second: tileYellow_68.png
+  - first:
+      213: 6034007946122085998
+    second: tileYellow_69.png
+  - first:
+      213: 7628616170729614210
+    second: tileYellow_70.png
+  - first:
+      213: 2989929291225131837
+    second: tileYellow_71.png
+  - first:
+      213: 9095972931361912928
+    second: tileYellow_72.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileYellow_01.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacc70c06bd5a78d0800000000000000
+      internalID: -2847860777891148627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_02.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68b30439cf3bab80800000000000000
+      internalID: -8382536148026410902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_03.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c62c7dfab28c5e0800000000000000
+      internalID: -1889212009442808706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_04.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709c717b676bcb160800000000000000
+      internalID: 7042704538294798599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_05.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 754
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964ee377a2bb86fd0800000000000000
+      internalID: -2348421414610082711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_06.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5336e80d28c86a50800000000000000
+      internalID: 6514676956739810139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_07.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076ec5717f78d9da0800000000000000
+      internalID: -5936439238485809552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_08.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 884
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5127fff8b4a23e80800000000000000
+      internalID: -8200310857012928166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_09.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 912
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0764c66f5a9002c20800000000000000
+      internalID: 3179551945332115056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_10.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e88c44add8f37f0800000000000000
+      internalID: -630629454212198762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_11.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 530
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836205738996236f0800000000000000
+      internalID: -706386089059801544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_12.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1154
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e8f145d6acaeee0800000000000000
+      internalID: -1230948977220809203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_13.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a797688b562f050800000000000000
+      internalID: 5832836310602709607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_14.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a175e5629b0835b70800000000000000
+      internalID: 8886588022433142554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_15.png
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 924
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b9f744e17c33600800000000000000
+      internalID: 446919720851970936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_16.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a129d9d20d6576c0800000000000000
+      internalID: -4146288022912425562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_17.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1144
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc84502714b258610800000000000000
+      internalID: 1622750800822749391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_18.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e6c674df9d08470800000000000000
+      internalID: 8394949387266846292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_19.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01b86bfc6754cdb0800000000000000
+      internalID: -4772593579519856370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_20.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14b53c568054b260800000000000000
+      internalID: 7112398249527718940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_21.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 660
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d017e5c64db7a4ff0800000000000000
+      internalID: -51092293479927539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_22.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e056c21ac6927a0800000000000000
+      internalID: -6401465955840094713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_23.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 782
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0417061e2e143b0800000000000000
+      internalID: -5529889409820704584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_24.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1034
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d91b50b6d7888db0800000000000000
+      internalID: -4789428847557010986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_25.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c94eee64502b060800000000000000
+      internalID: 6967637375709387879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_26.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa33d5b7b2297820800000000000000
+      internalID: 2916400406123985662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_27.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 644
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77306a3b765df1d0800000000000000
+      internalID: -3315398663414466689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_28.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f134a51bd413dae40800000000000000
+      internalID: 5669241715687047967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_29.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4011b257cd23d5c50800000000000000
+      internalID: 6655531746763411716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_30.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd74f121e03c65480800000000000000
+      internalID: -8910720347504949281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_31.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd82bf9a5f3146f0800000000000000
+      internalID: -702210408434201140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_32.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 234
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574453fac739c7ad0800000000000000
+      internalID: -2703123512604408715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_33.png
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250928ec76cf69bb0800000000000000
+      internalID: -4929475219333935022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_34.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9d3f7d5f2972330800000000000000
+      internalID: 3686076404613765544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_35.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 414
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9754d6498a55b0b0800000000000000
+      internalID: -5713561006604265571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_36.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850a33498a9e058e0800000000000000
+      internalID: -1706607348523229096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_37.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351cc963a9508b650800000000000000
+      internalID: 6248750642875908435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_38.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94875641f88925640800000000000000
+      internalID: 5067280271035168841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_39.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 714
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01717b92582238a20800000000000000
+      internalID: 3063330126867928848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_40.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b315dbd9e925ac5d0800000000000000
+      internalID: -3041527757130608325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_41.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d235e2e1838b7e080800000000000000
+      internalID: -9158148766070582483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_42.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1124
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cc24802bc4accd0800000000000000
+      internalID: -2537131112543368131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_43.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba9d393396d16d20800000000000000
+      internalID: 3270130732256565946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_44.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 264
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c581a7fee0c1b1b50800000000000000
+      internalID: 6564871732295506012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_45.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 982
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec9084845914e990800000000000000
+      internalID: -7357728040425579288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_46.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b405425286fe660800000000000000
+      internalID: 7417261620034816788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_47.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 564
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6335a7c9079e012c0800000000000000
+      internalID: -4462810560853290186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_48.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b4898eae48348c0800000000000000
+      internalID: -4016220298224841870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_49.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e567d5e3dffd9c0800000000000000
+      internalID: -3900120307981722092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_50.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb946cc573a7df8e0800000000000000
+      internalID: -1658034709604185669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_51.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 534
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44716898f96eaf1b0800000000000000
+      internalID: -5621927611937188028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_52.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f08988f7f367360800000000000000
+      internalID: 7166985673991786382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_53.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6799b8e8a8134c4a0800000000000000
+      internalID: -6574075084887320202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_54.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 384
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b56e181d63100340800000000000000
+      internalID: 4827880159818180023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_55.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b54d3f587bfee240800000000000000
+      internalID: 4823068745372878261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_56.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 982
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246b18a74fb4e5800800000000000000
+      internalID: 603002913513649730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_57.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1132
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ffa6992fa9b65d0800000000000000
+      internalID: -3068188354376171626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_58.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 108
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d916561b1400b70800000000000000
+      internalID: 8863156296831048996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_59.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 86
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf109978d2844b50800000000000000
+      internalID: 6576525222131802038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_60.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74031344a23f7eb70800000000000000
+      internalID: 8928372149143547975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_61.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984f5f89d271e9260800000000000000
+      internalID: 7106142746644444297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_62.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557edf4f587eda4f0800000000000000
+      internalID: -815741394957244587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_63.png
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1164
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e5d9f4bb31e6710800000000000000
+      internalID: 1688308605526040219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_64.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56947833ac6189ea0800000000000000
+      internalID: -5865913456946362011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_65.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bd2feb2dbfcf570800000000000000
+      internalID: 8501947079133944642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_66.png
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 684
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c61de24cf22c8090800000000000000
+      internalID: -8031005568658499902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_67.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe56ababf74f9e60800000000000000
+      internalID: 7971169011711237818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_68.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55eadb26119e58010800000000000000
+      internalID: 1190613937389678165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_69.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 362
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66cd78e14a1db350800000000000000
+      internalID: 6034007946122085998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_70.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 236
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ba3283df94ed960800000000000000
+      internalID: 7628616170729614210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_71.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 534
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b620b59dc5e7920800000000000000
+      internalID: 2989929291225131837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileYellow_72.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068356440336b3e70800000000000000
+      internalID: 9095972931361912928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

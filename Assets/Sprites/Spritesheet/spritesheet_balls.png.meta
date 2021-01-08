@@ -1,0 +1,1100 @@
+fileFormatVersion: 2
+guid: 0efb267918fcc8a4f8cc9c0fc095e070
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1779118162943455321
+    second: ballBlack_01.png
+  - first:
+      213: 6072183012156608252
+    second: ballBlack_02.png
+  - first:
+      213: -103046860189909294
+    second: ballBlack_03.png
+  - first:
+      213: -3236118886710185514
+    second: ballBlack_04.png
+  - first:
+      213: -5573500657666432786
+    second: ballBlack_05.png
+  - first:
+      213: 1978288128796140058
+    second: ballBlack_06.png
+  - first:
+      213: 7376463580568915537
+    second: ballBlack_07.png
+  - first:
+      213: -6403403245649090152
+    second: ballBlack_08.png
+  - first:
+      213: -4622133434676241159
+    second: ballBlack_09.png
+  - first:
+      213: -6485536680513557418
+    second: ballBlack_10.png
+  - first:
+      213: 2068537969859460321
+    second: ballBlue_01.png
+  - first:
+      213: -2965237905022120088
+    second: ballBlue_02.png
+  - first:
+      213: 2520718222746216134
+    second: ballBlue_03.png
+  - first:
+      213: 5401749705767760848
+    second: ballBlue_04.png
+  - first:
+      213: -8113092737983066714
+    second: ballBlue_05.png
+  - first:
+      213: 897413621930533500
+    second: ballBlue_06.png
+  - first:
+      213: -7520712130002031095
+    second: ballBlue_07.png
+  - first:
+      213: 2661916534210765669
+    second: ballBlue_08.png
+  - first:
+      213: 5361997826197453685
+    second: ballBlue_09.png
+  - first:
+      213: -82391069129213385
+    second: ballBlue_10.png
+  - first:
+      213: -6897122108036648442
+    second: ballGrey_01.png
+  - first:
+      213: -4932495339641515262
+    second: ballGrey_02.png
+  - first:
+      213: -4142139473133352013
+    second: ballGrey_03.png
+  - first:
+      213: 5417032829231872669
+    second: ballGrey_04.png
+  - first:
+      213: 3566433798584698237
+    second: ballGrey_05.png
+  - first:
+      213: 488314364268599634
+    second: ballGrey_06.png
+  - first:
+      213: 1151176997220888447
+    second: ballGrey_07.png
+  - first:
+      213: 6003806907937192401
+    second: ballGrey_08.png
+  - first:
+      213: -5246289572804382791
+    second: ballGrey_09.png
+  - first:
+      213: -2933147599744843884
+    second: ballGrey_10.png
+  - first:
+      213: -1825778804085077246
+    second: ballYellow_01.png
+  - first:
+      213: 2827030369709583680
+    second: ballYellow_02.png
+  - first:
+      213: 2134090393636346498
+    second: ballYellow_03.png
+  - first:
+      213: 9110120186150919920
+    second: ballYellow_04.png
+  - first:
+      213: 8429924179648158314
+    second: ballYellow_05.png
+  - first:
+      213: -2280947466155771723
+    second: ballYellow_06.png
+  - first:
+      213: -5441093378054952871
+    second: ballYellow_07.png
+  - first:
+      213: 364205648869102677
+    second: ballYellow_08.png
+  - first:
+      213: 4284917566733734250
+    second: ballYellow_09.png
+  - first:
+      213: -7035543560246140254
+    second: ballYellow_10.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ballBlack_01.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 522
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950b0b30b82b0b810800000000000000
+      internalID: 1779118162943455321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_02.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe81ca174ab44450800000000000000
+      internalID: 6072183012156608252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_03.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 262
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de39273d67e19ef0800000000000000
+      internalID: -103046860189909294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_04.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 392
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1f4baa40ff613d0800000000000000
+      internalID: -3236118886710185514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_05.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 822
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0e2687ea2f6a2b0800000000000000
+      internalID: -5573500657666432786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_06.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12244c529a447b10800000000000000
+      internalID: 1978288128796140058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_07.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e8a6a5b867e5660800000000000000
+      internalID: 7376463580568915537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_08.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899a08dbcaa8227a0800000000000000
+      internalID: -6403403245649090152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_09.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc9aa95122eadfb0800000000000000
+      internalID: -4622133434676241159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlack_10.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 802
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c293c30cebef5a0800000000000000
+      internalID: -6485536680513557418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_01.png
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 562
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec71e1f25ce4bc10800000000000000
+      internalID: 2068537969859460321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_02.png
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 692
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f02acf5db59d6d0800000000000000
+      internalID: -2965237905022120088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_03.png
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 822
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c664a54ed36bf220800000000000000
+      internalID: 2520718222746216134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_04.png
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 42
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3bbd9dcbed6fa40800000000000000
+      internalID: 5401749705767760848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_05.png
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 172
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adc7bac321886f80800000000000000
+      internalID: -8113092737983066714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_06.png
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 352
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7224c73fe0447c00800000000000000
+      internalID: 897413621930533500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_07.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ee1490a2011a790800000000000000
+      internalID: -7520712130002031095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_08.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 502
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5632f530cf601f420800000000000000
+      internalID: 2661916534210765669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_09.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 802
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b7ae42d94a96a40800000000000000
+      internalID: 5361997826197453685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballBlue_10.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 652
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a73e752c94bdef0800000000000000
+      internalID: -82391069129213385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_01.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6027bf93cff7840a0800000000000000
+      internalID: -6897122108036648442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_02.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203d5604f914c8bb0800000000000000
+      internalID: -4932495339641515262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_03.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 262
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb43cd581a2486c0800000000000000
+      internalID: -4142139473133352013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_04.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 392
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9abef258aa2d2b40800000000000000
+      internalID: 5417032829231872669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_05.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 522
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75869fd4a48e7130800000000000000
+      internalID: 3566433798584698237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_06.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 352
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25953fcb357d6c600800000000000000
+      internalID: 488314364268599634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_07.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 652
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fa3f8316dc9ff00800000000000000
+      internalID: 1151176997220888447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_08.png
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 52
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9f1afb29ec15350800000000000000
+      internalID: 6003806907937192401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_09.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 802
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfa828fd6f6137b0800000000000000
+      internalID: -5246289572804382791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballGrey_10.png
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 202
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f3b6b6ccd5b47d0800000000000000
+      internalID: -2933147599744843884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_01.png
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 562
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b4210e9d789a6e0800000000000000
+      internalID: -1825778804085077246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_02.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 692
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04de7cb9421ab3720800000000000000
+      internalID: 2827030369709583680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_03.png
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 302
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a9447f7efcd9d10800000000000000
+      internalID: 2134090393636346498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_04.png
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 432
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe14a4ba06ad6e70800000000000000
+      internalID: 9110120186150919920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_05.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a9763b06b1df470800000000000000
+      internalID: 8429924179648158314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_06.png
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 502
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b835705d527850e0800000000000000
+      internalID: -2280947466155771723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_07.png
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 652
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958ed4b966a5d74b0800000000000000
+      internalID: -5441093378054952871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_08.png
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 802
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5549806ab1bed0500800000000000000
+      internalID: 364205648869102677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_09.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 52
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61def013d5177b30800000000000000
+      internalID: 4284917566733734250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballYellow_10.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 202
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2edb9686abc5e90800000000000000
+      internalID: -7035543560246140254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1868 @@
+fileFormatVersion: 2
+guid: b87a9b3905307c54eb4a01222240dc4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5137989472290234902
+    second: tileRed_01.png
+  - first:
+      213: -3767053418066525734
+    second: tileRed_02.png
+  - first:
+      213: -3098808478421278267
+    second: tileRed_03.png
+  - first:
+      213: 5756602601569183465
+    second: tileRed_04.png
+  - first:
+      213: 613436266393114582
+    second: tileRed_05.png
+  - first:
+      213: 2907977307116413866
+    second: tileRed_06.png
+  - first:
+      213: 845280441827224616
+    second: tileRed_07.png
+  - first:
+      213: -6975026659230648351
+    second: tileRed_08.png
+  - first:
+      213: 3215871474088159582
+    second: tileRed_09.png
+  - first:
+      213: -1987632156693514073
+    second: tileRed_10.png
+  - first:
+      213: -8274677581053078523
+    second: tileRed_11.png
+  - first:
+      213: 8672335395795374116
+    second: tileRed_12.png
+  - first:
+      213: 2629695223466236350
+    second: tileRed_13.png
+  - first:
+      213: 901941432197646854
+    second: tileRed_14.png
+  - first:
+      213: -4784513478393682052
+    second: tileRed_15.png
+  - first:
+      213: -5838083967578329076
+    second: tileRed_16.png
+  - first:
+      213: -566591495895573772
+    second: tileRed_17.png
+  - first:
+      213: -669054834798353331
+    second: tileRed_18.png
+  - first:
+      213: -2921419986582555965
+    second: tileRed_19.png
+  - first:
+      213: 1335837228338680821
+    second: tileRed_20.png
+  - first:
+      213: 5238623775348330083
+    second: tileRed_21.png
+  - first:
+      213: 1180960932162749774
+    second: tileRed_22.png
+  - first:
+      213: 6708906842811723657
+    second: tileRed_23.png
+  - first:
+      213: -1727745728190211367
+    second: tileRed_24.png
+  - first:
+      213: -7690822927968842027
+    second: tileRed_25.png
+  - first:
+      213: 5394590298501704949
+    second: tileRed_26.png
+  - first:
+      213: 8920311223606630875
+    second: tileRed_27.png
+  - first:
+      213: -3700344351980128532
+    second: tileRed_28.png
+  - first:
+      213: -208516131689899994
+    second: tileRed_29.png
+  - first:
+      213: -4391060966179503547
+    second: tileRed_30.png
+  - first:
+      213: 1685972108845651681
+    second: tileRed_31.png
+  - first:
+      213: -3099624325959323974
+    second: tileRed_32.png
+  - first:
+      213: -2904044167564122491
+    second: tileRed_33.png
+  - first:
+      213: 5642162999001231372
+    second: tileRed_34.png
+  - first:
+      213: 3994233241269112890
+    second: tileRed_35.png
+  - first:
+      213: 8380405792834336870
+    second: tileRed_36.png
+  - first:
+      213: -6358893996713673624
+    second: tileRed_37.png
+  - first:
+      213: -1037334712253421413
+    second: tileRed_38.png
+  - first:
+      213: 3250399059970714263
+    second: tileRed_39.png
+  - first:
+      213: -1787323346211531269
+    second: tileRed_40.png
+  - first:
+      213: 6442342321620837199
+    second: tileRed_41.png
+  - first:
+      213: 2001271123402670654
+    second: tileRed_42.png
+  - first:
+      213: 21422676330243182
+    second: tileRed_43.png
+  - first:
+      213: 6229503085250149772
+    second: tileRed_44.png
+  - first:
+      213: -648971513721671256
+    second: tileRed_45.png
+  - first:
+      213: -4369147603973002848
+    second: tileRed_46.png
+  - first:
+      213: 630635431280609072
+    second: tileRed_47.png
+  - first:
+      213: 4002085474629816942
+    second: tileRed_48.png
+  - first:
+      213: -8914822991929571700
+    second: tileRed_49.png
+  - first:
+      213: 3661293079591124352
+    second: tileRed_50.png
+  - first:
+      213: -6253421138502421740
+    second: tileRed_51.png
+  - first:
+      213: 951423291444148901
+    second: tileRed_52.png
+  - first:
+      213: -7880688072927794415
+    second: tileRed_53.png
+  - first:
+      213: -1190268986511828040
+    second: tileRed_54.png
+  - first:
+      213: -8226178059548687600
+    second: tileRed_55.png
+  - first:
+      213: -4254045127433785505
+    second: tileRed_56.png
+  - first:
+      213: 740802422150688788
+    second: tileRed_57.png
+  - first:
+      213: 3824266148225546513
+    second: tileRed_58.png
+  - first:
+      213: 8644119289743379874
+    second: tileRed_59.png
+  - first:
+      213: 1765433321901699412
+    second: tileRed_60.png
+  - first:
+      213: -4717455646196235358
+    second: tileRed_61.png
+  - first:
+      213: -5660767156388224458
+    second: tileRed_62.png
+  - first:
+      213: -9127866866836894021
+    second: tileRed_63.png
+  - first:
+      213: -5500724471808735484
+    second: tileRed_64.png
+  - first:
+      213: -3825515044410678162
+    second: tileRed_65.png
+  - first:
+      213: 8362708676930552841
+    second: tileRed_66.png
+  - first:
+      213: 1699654048923431580
+    second: tileRed_67.png
+  - first:
+      213: -5336236742833103682
+    second: tileRed_68.png
+  - first:
+      213: -5413420234362037955
+    second: tileRed_69.png
+  - first:
+      213: 1096139124453659348
+    second: tileRed_70.png
+  - first:
+      213: -5584106080333474085
+    second: tileRed_71.png
+  - first:
+      213: 1223144173987698498
+    second: tileRed_72.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileRed_01.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed91741cc132b8b0800000000000000
+      internalID: -5137989472290234902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_02.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1493effdcb8bbc0800000000000000
+      internalID: -3767053418066525734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_03.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c12bb86b12def4d0800000000000000
+      internalID: -3098808478421278267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_04.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6ee9bf09f83ef40800000000000000
+      internalID: 5756602601569183465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_05.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 754
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d714beb80d538800800000000000000
+      internalID: 613436266393114582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_06.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3229524f53b5820800000000000000
+      internalID: 2907977307116413866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_07.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c62b6551a0bbb00800000000000000
+      internalID: 845280441827224616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_08.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 884
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e77dad653ab33f90800000000000000
+      internalID: -6975026659230648351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_09.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 912
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e592658311211ac20800000000000000
+      internalID: 3215871474088159582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_10.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8b32c95138a64e0800000000000000
+      internalID: -1987632156693514073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_11.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 530
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5045176c4907a2d80800000000000000
+      internalID: -8274677581053078523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_12.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1154
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4201e6f28135a5870800000000000000
+      internalID: 8672335395795374116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_13.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb91f3e7fdd8e7420800000000000000
+      internalID: 2629695223466236350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_14.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a095234f6548c00800000000000000
+      internalID: 901941432197646854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_15.png
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 924
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77a641475ef99db0800000000000000
+      internalID: -4784513478393682052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_16.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00379f1095fafea0800000000000000
+      internalID: -5838083967578329076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_17.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1144
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa136259001328f0800000000000000
+      internalID: -566591495895573772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_18.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44269c2c2a07b6f0800000000000000
+      internalID: -669054834798353331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_19.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2350420080577d0800000000000000
+      internalID: -2921419986582555965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_20.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f39ed0b1e8d98210800000000000000
+      internalID: 1335837228338680821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_21.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 660
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e8d89719453b840800000000000000
+      internalID: 5238623775348330083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_22.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45cc27f5bd936010800000000000000
+      internalID: 1180960932162749774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_23.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 782
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98feafc6a33da1d50800000000000000
+      internalID: 6708906842811723657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_24.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1034
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da16090a60d508e0800000000000000
+      internalID: -1727745728190211367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_25.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5deccf37b45b44590800000000000000
+      internalID: -7690822927968842027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_26.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc66f27b4f6dda40800000000000000
+      internalID: 5394590298501704949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_27.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 644
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9d009cbcf4bcb70800000000000000
+      internalID: 8920311223606630875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_28.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6f999ca6cb5acc0800000000000000
+      internalID: -3700344351980128532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_29.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6285fa8dea33b1df0800000000000000
+      internalID: -208516131689899994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_30.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54289cbe051df03c0800000000000000
+      internalID: -4391060966179503547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_31.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e616f843b6c56710800000000000000
+      internalID: 1685972108845651681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_32.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 234
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abee80a191cebf4d0800000000000000
+      internalID: -3099624325959323974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_33.png
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586ab444733c2b7d0800000000000000
+      internalID: -2904044167564122491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_34.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c003258aa5dfc4e40800000000000000
+      internalID: 5642162999001231372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_35.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 414
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3017e778fd5e6730800000000000000
+      internalID: 3994233241269112890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_36.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6683483daae2d4470800000000000000
+      internalID: 8380405792834336870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_37.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c7481d99ba0c7a0800000000000000
+      internalID: -6358893996713673624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_38.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98e3f24395aa91f0800000000000000
+      internalID: -1037334712253421413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_39.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 714
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a61d349bcbb1d20800000000000000
+      internalID: 3250399059970714263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_40.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf59c42e2e62237e0800000000000000
+      internalID: -1787323346211531269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_41.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43eca1653cc76950800000000000000
+      internalID: 6442342321620837199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_42.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1124
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32c9a9cb71f5cb10800000000000000
+      internalID: 2001271123402670654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_43.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e646dc48fcb1c4000800000000000000
+      internalID: 21422676330243182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_44.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 264
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8df88bfc04a37650800000000000000
+      internalID: 6229503085250149772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_45.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 982
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1b54fb8d36ef6f0800000000000000
+      internalID: -648971513721671256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_46.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a0f5276bad53c0800000000000000
+      internalID: -4369147603973002848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_47.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 564
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0378140659770c800800000000000000
+      internalID: 630635431280609072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_48.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e629f0409834a8730800000000000000
+      internalID: 4002085474629816942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_49.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c868d8ab8bf284480800000000000000
+      internalID: -8914822991929571700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_50.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dff9358a68fc230800000000000000
+      internalID: 3661293079591124352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_51.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 534
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413f4a84b926739a0800000000000000
+      internalID: -6253421138502421740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_52.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aabf855172243d00800000000000000
+      internalID: 951423291444148901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_53.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b2b7b83fb22a290800000000000000
+      internalID: -7880688072927794415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_54.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 384
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb5ccfb9a05b7fe0800000000000000
+      internalID: -1190268986511828040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_55.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0130d7593aeb6dd80800000000000000
+      internalID: -8226178059548687600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_56.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 982
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fe3d8de7896f4c0800000000000000
+      internalID: -4254045127433785505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_57.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1132
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4107a05c0ebd74a00800000000000000
+      internalID: 740802422150688788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_58.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 108
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119f88bccc5821530800000000000000
+      internalID: 3824266148225546513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_59.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 86
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad814d02b416f770800000000000000
+      internalID: 8644119289743379874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_60.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451b69aa044108810800000000000000
+      internalID: 1765433321901699412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_61.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a300dc751b388eb0800000000000000
+      internalID: -4717455646196235358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_62.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6322847634ae071b0800000000000000
+      internalID: -5660767156388224458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_63.png
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1164
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe0125327d435180800000000000000
+      internalID: -9127866866836894021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_64.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407ca8aac3089a3b0800000000000000
+      internalID: -5500724471808735484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_65.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e642df6e55a09eac0800000000000000
+      internalID: -3825515044410678162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_66.png
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 684
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904c580fb3f4e0470800000000000000
+      internalID: 8362708676930552841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_67.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92b2233a52669710800000000000000
+      internalID: 1699654048923431580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_68.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc9b0a74f0e1f5b0800000000000000
+      internalID: -5336236742833103682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_69.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 362
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3950f67afaafd4b0800000000000000
+      internalID: -5413420234362037955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_70.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 236
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2d771e9b4463f00800000000000000
+      internalID: 1096139124453659348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_71.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 534
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6df951b154182b0800000000000000
+      internalID: -5584106080333474085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileRed_72.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24710af452b79f010800000000000000
+      internalID: 1223144173987698498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

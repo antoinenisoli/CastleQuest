@@ -1,0 +1,1868 @@
+fileFormatVersion: 2
+guid: 6c51d223dafb1674dbdee538f7395d1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3738283763101415773
+    second: tilePink_01.png
+  - first:
+      213: 4877208204692556932
+    second: tilePink_02.png
+  - first:
+      213: 5547652085776674342
+    second: tilePink_03.png
+  - first:
+      213: 3906450673916330452
+    second: tilePink_04.png
+  - first:
+      213: -4166843160657029679
+    second: tilePink_05.png
+  - first:
+      213: 6402280245031771104
+    second: tilePink_06.png
+  - first:
+      213: 5958209725035520645
+    second: tilePink_07.png
+  - first:
+      213: 75303257423981150
+    second: tilePink_08.png
+  - first:
+      213: 209556250957311089
+    second: tilePink_09.png
+  - first:
+      213: 871385990619893806
+    second: tilePink_10.png
+  - first:
+      213: 7922930567768058215
+    second: tilePink_11.png
+  - first:
+      213: -8642057401231434228
+    second: tilePink_12.png
+  - first:
+      213: 8713551413625038655
+    second: tilePink_13.png
+  - first:
+      213: -8966507959201974606
+    second: tilePink_14.png
+  - first:
+      213: 118925408632609337
+    second: tilePink_15.png
+  - first:
+      213: 5716540273449361840
+    second: tilePink_16.png
+  - first:
+      213: -8012445027410956524
+    second: tilePink_17.png
+  - first:
+      213: 3409533006735992223
+    second: tilePink_18.png
+  - first:
+      213: 4734923519177818270
+    second: tilePink_19.png
+  - first:
+      213: 873890277412141539
+    second: tilePink_20.png
+  - first:
+      213: 6482793371057204266
+    second: tilePink_21.png
+  - first:
+      213: -3636571770938665386
+    second: tilePink_22.png
+  - first:
+      213: -6592654407473825528
+    second: tilePink_23.png
+  - first:
+      213: -7680971920030306562
+    second: tilePink_24.png
+  - first:
+      213: 3406533419711725613
+    second: tilePink_25.png
+  - first:
+      213: -8760696146175135644
+    second: tilePink_26.png
+  - first:
+      213: -4837254777791080547
+    second: tilePink_27.png
+  - first:
+      213: -3977634327321140086
+    second: tilePink_28.png
+  - first:
+      213: -858043519567471593
+    second: tilePink_29.png
+  - first:
+      213: -4559291510152461365
+    second: tilePink_30.png
+  - first:
+      213: 5778669127373082992
+    second: tilePink_31.png
+  - first:
+      213: 6588819358894150974
+    second: tilePink_32.png
+  - first:
+      213: 8107016311534839542
+    second: tilePink_33.png
+  - first:
+      213: 757146683914146060
+    second: tilePink_34.png
+  - first:
+      213: -4755072845075029171
+    second: tilePink_35.png
+  - first:
+      213: 3576918165712427794
+    second: tilePink_36.png
+  - first:
+      213: -536690266375199261
+    second: tilePink_37.png
+  - first:
+      213: -7774313763399650819
+    second: tilePink_38.png
+  - first:
+      213: 3903883083627151236
+    second: tilePink_39.png
+  - first:
+      213: -8211148497104249964
+    second: tilePink_40.png
+  - first:
+      213: -9047522805173798715
+    second: tilePink_41.png
+  - first:
+      213: -6051406128990351822
+    second: tilePink_42.png
+  - first:
+      213: 2698750463169264264
+    second: tilePink_43.png
+  - first:
+      213: -3046097639373528067
+    second: tilePink_44.png
+  - first:
+      213: -4359669877315376457
+    second: tilePink_45.png
+  - first:
+      213: -7263136612711119149
+    second: tilePink_46.png
+  - first:
+      213: -8722362013991188293
+    second: tilePink_47.png
+  - first:
+      213: -8577892670250758599
+    second: tilePink_48.png
+  - first:
+      213: -6835938757734298771
+    second: tilePink_49.png
+  - first:
+      213: -8545655210077285245
+    second: tilePink_50.png
+  - first:
+      213: -3836068067993149328
+    second: tilePink_51.png
+  - first:
+      213: -1726227170981605369
+    second: tilePink_52.png
+  - first:
+      213: 5361170796897975698
+    second: tilePink_53.png
+  - first:
+      213: -7233045598514219402
+    second: tilePink_54.png
+  - first:
+      213: 749402906600931789
+    second: tilePink_55.png
+  - first:
+      213: -2874950431356754901
+    second: tilePink_56.png
+  - first:
+      213: -4791576361376896185
+    second: tilePink_57.png
+  - first:
+      213: 4420792745891734996
+    second: tilePink_58.png
+  - first:
+      213: 6192564269967551839
+    second: tilePink_59.png
+  - first:
+      213: -8084002925445425351
+    second: tilePink_60.png
+  - first:
+      213: 8177600809915700469
+    second: tilePink_61.png
+  - first:
+      213: -5597903378367023344
+    second: tilePink_62.png
+  - first:
+      213: 5207752120275487195
+    second: tilePink_63.png
+  - first:
+      213: 8343197392675991516
+    second: tilePink_64.png
+  - first:
+      213: 9197767392982989074
+    second: tilePink_65.png
+  - first:
+      213: 7930696359638435141
+    second: tilePink_66.png
+  - first:
+      213: -7641448887009842439
+    second: tilePink_67.png
+  - first:
+      213: 1022286790760410788
+    second: tilePink_68.png
+  - first:
+      213: -3338622553199579607
+    second: tilePink_69.png
+  - first:
+      213: -33525902123168077
+    second: tilePink_70.png
+  - first:
+      213: 6973957505656973573
+    second: tilePink_71.png
+  - first:
+      213: -6936903170270450087
+    second: tilePink_72.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilePink_01.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d593549b64d01e330800000000000000
+      internalID: 3738283763101415773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_02.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c025885035fa340800000000000000
+      internalID: 4877208204692556932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_03.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e6c26ed283dfc40800000000000000
+      internalID: 5547652085776674342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_04.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d14e5fc030863630800000000000000
+      internalID: 3906450673916330452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_05.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 754
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d59546e8366c26c0800000000000000
+      internalID: -4166843160657029679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_06.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb9e9d46f779d850800000000000000
+      internalID: 6402280245031771104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_07.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582250e4d20dfa250800000000000000
+      internalID: 5958209725035520645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_08.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 884
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aaf25e9e78b0100800000000000000
+      internalID: 75303257423981150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_09.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 912
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ce5cacc4e78e200800000000000000
+      internalID: 209556250957311089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_10.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20962111f8c71c00800000000000000
+      internalID: 871385990619893806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_11.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 530
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76926e7bf57e3fd60800000000000000
+      internalID: 7922930567768058215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_12.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1154
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e9017c49e311880800000000000000
+      internalID: -8642057401231434228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_13.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37293528d0cce870800000000000000
+      internalID: 8713551413625038655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_14.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6bd088480909380800000000000000
+      internalID: -8966507959201974606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_15.png
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 924
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a9050770286a100800000000000000
+      internalID: 118925408632609337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_16.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1e927571b355f40800000000000000
+      internalID: 5716540273449361840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_17.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1144
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f23d603b31ec090800000000000000
+      internalID: -8012445027410956524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_18.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95e7748438115f20800000000000000
+      internalID: 3409533006735992223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_19.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e908c3f9ad3d5b140800000000000000
+      internalID: 4734923519177818270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_20.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e971d5c39ea02c00800000000000000
+      internalID: 873890277412141539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_21.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 660
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c2f12493287f950800000000000000
+      internalID: 6482793371057204266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_22.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656dcf0ed3d488dc0800000000000000
+      internalID: -3636571770938665386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_23.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 782
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809fb9beebf2284a0800000000000000
+      internalID: -6592654407473825528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_24.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1034
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efee7d8fbb4b76590800000000000000
+      internalID: -7680971920030306562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_25.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d200a6db810764f20800000000000000
+      internalID: 3406533419711725613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_26.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460f81e6541cb6680800000000000000
+      internalID: -8760696146175135644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_27.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 644
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9793b1986e9edcb0800000000000000
+      internalID: -4837254777791080547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_28.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84af9957aa9cc8c0800000000000000
+      internalID: -3977634327321140086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_29.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cda5e07fd9714f0800000000000000
+      internalID: -858043519567471593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_30.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc388e517842ab0c0800000000000000
+      internalID: -4559291510152461365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_31.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071d69364f4f13050800000000000000
+      internalID: 5778669127373082992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_32.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 234
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e355a104c40307b50800000000000000
+      internalID: 6588819358894150974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_33.png
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6e45de168e18070800000000000000
+      internalID: 8107016311534839542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_34.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c015191c5ece18a00800000000000000
+      internalID: 757146683914146060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_35.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 414
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43623cd076920eb0800000000000000
+      internalID: -4755072845075029171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_36.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b5ee1de14c3a130800000000000000
+      internalID: 3576918165712427794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_37.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5eb46db0b4d88f0800000000000000
+      internalID: -536690266375199261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_38.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1322082d61c1490800000000000000
+      internalID: -7774313763399650819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_39.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 714
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fb04c1bf06d2630800000000000000
+      internalID: 3903883083627151236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_40.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b5e1842f32c0e80800000000000000
+      internalID: -8211148497104249964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_41.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8be5cc1fdb07280800000000000000
+      internalID: -9047522805173798715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_42.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1124
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e88e9ff26150ca0800000000000000
+      internalID: -6051406128990351822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_43.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aff966f33e37520800000000000000
+      internalID: 2698750463169264264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_44.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 264
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df32cfdf5561ab5d0800000000000000
+      internalID: -3046097639373528067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_45.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 982
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba65a858575f73c0800000000000000
+      internalID: -4359669877315376457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_46.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d648348bb7243b90800000000000000
+      internalID: -7263136612711119149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_47.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 564
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8c1b916f1f3f680800000000000000
+      internalID: -8722362013991188293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_48.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ec644601435f880800000000000000
+      internalID: -8577892670250758599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_49.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b0cee0bedd121a0800000000000000
+      internalID: -6835938757734298771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_50.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384906efcdbb76980800000000000000
+      internalID: -8545655210077285245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_51.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 534
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070ac01aa6c83cac0800000000000000
+      internalID: -3836068067993149328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_52.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7009300b8853b08e0800000000000000
+      internalID: -1726227170981605369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_53.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d3d416f64b66a40800000000000000
+      internalID: 5361170796897975698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_54.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 384
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6767b58b95f0f9b90800000000000000
+      internalID: -7233045598514219402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_55.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1089919f9666a00800000000000000
+      internalID: 749402906600931789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_56.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 982
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24ef1890df1a18d0800000000000000
+      internalID: -2874950431356754901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_57.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1132
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ba8f9afa6e08db0800000000000000
+      internalID: -4791576361376896185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_58.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 108
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5208c749fc95d30800000000000000
+      internalID: 4420792745891734996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_59.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 86
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d2138d46860f550800000000000000
+      internalID: 6192564269967551839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_60.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9375b919b2adfcf80800000000000000
+      internalID: -8084002925445425351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_61.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4d8fd1c9cac7170800000000000000
+      internalID: 8177600809915700469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_62.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017797d49804052b0800000000000000
+      internalID: -5597903378367023344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_63.png
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1164
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9ce4726f6a54840800000000000000
+      internalID: 5207752120275487195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_64.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfea6113ddf8c370800000000000000
+      internalID: 8343197392675991516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_65.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219fb6946b805af70800000000000000
+      internalID: 9197767392982989074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_66.png
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 684
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5458bb9025e7f0e60800000000000000
+      internalID: 7930696359638435141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_67.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa697039be14f590800000000000000
+      internalID: -7641448887009842439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_68.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae29dd7b64ef2e00800000000000000
+      internalID: 1022286790760410788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_69.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 362
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e6e650a74daa1d0800000000000000
+      internalID: -3338622553199579607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_70.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 236
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be8c21ae54e88ff0800000000000000
+      internalID: -33525902123168077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_71.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 534
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5096a5bd66978c060800000000000000
+      internalID: 6973957505656973573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilePink_72.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95eafb6e15b2bbf90800000000000000
+      internalID: -6936903170270450087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

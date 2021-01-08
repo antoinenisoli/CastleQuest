@@ -1,0 +1,1868 @@
+fileFormatVersion: 2
+guid: b64b4d774753f9b4f833f7dbc142ac7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5467650560734944284
+    second: tileGreen_01.png
+  - first:
+      213: 9136931469117568100
+    second: tileGreen_02.png
+  - first:
+      213: -7466027896452116972
+    second: tileGreen_03.png
+  - first:
+      213: 4364014898634404139
+    second: tileGreen_04.png
+  - first:
+      213: -4875027200046783046
+    second: tileGreen_05.png
+  - first:
+      213: -1571812718329678775
+    second: tileGreen_06.png
+  - first:
+      213: -6483655444219276928
+    second: tileGreen_07.png
+  - first:
+      213: 7050123168596473555
+    second: tileGreen_08.png
+  - first:
+      213: -3401240004878272081
+    second: tileGreen_09.png
+  - first:
+      213: -6403167283502988727
+    second: tileGreen_10.png
+  - first:
+      213: -555647100119871421
+    second: tileGreen_11.png
+  - first:
+      213: -6592757255732572347
+    second: tileGreen_12.png
+  - first:
+      213: 8121613566440810979
+    second: tileGreen_13.png
+  - first:
+      213: 9173904471267270489
+    second: tileGreen_14.png
+  - first:
+      213: -565980180735463573
+    second: tileGreen_15.png
+  - first:
+      213: 1661610280211834137
+    second: tileGreen_16.png
+  - first:
+      213: -2561685994543835890
+    second: tileGreen_17.png
+  - first:
+      213: 1626432703217021990
+    second: tileGreen_18.png
+  - first:
+      213: -161822930239761530
+    second: tileGreen_19.png
+  - first:
+      213: -4645537878689455428
+    second: tileGreen_20.png
+  - first:
+      213: 3243040441600562933
+    second: tileGreen_21.png
+  - first:
+      213: 8659461106364901043
+    second: tileGreen_22.png
+  - first:
+      213: 5044276399239141588
+    second: tileGreen_23.png
+  - first:
+      213: 2561592624190868390
+    second: tileGreen_24.png
+  - first:
+      213: 79035994889076265
+    second: tileGreen_25.png
+  - first:
+      213: -2988051846807258386
+    second: tileGreen_26.png
+  - first:
+      213: -1782908835841676341
+    second: tileGreen_27.png
+  - first:
+      213: 1722173677274936927
+    second: tileGreen_28.png
+  - first:
+      213: 6907073698534097574
+    second: tileGreen_29.png
+  - first:
+      213: -260698322866567541
+    second: tileGreen_30.png
+  - first:
+      213: 3540774411188197700
+    second: tileGreen_31.png
+  - first:
+      213: 3002939161544470964
+    second: tileGreen_32.png
+  - first:
+      213: -4240422726855392821
+    second: tileGreen_33.png
+  - first:
+      213: -3789988263730749780
+    second: tileGreen_34.png
+  - first:
+      213: -6142433056397495921
+    second: tileGreen_35.png
+  - first:
+      213: 4450121412046271542
+    second: tileGreen_36.png
+  - first:
+      213: -2929915475641986464
+    second: tileGreen_37.png
+  - first:
+      213: -7982069186126797563
+    second: tileGreen_38.png
+  - first:
+      213: 4968016818907677153
+    second: tileGreen_39.png
+  - first:
+      213: -996837658192508058
+    second: tileGreen_40.png
+  - first:
+      213: -3638176758687524936
+    second: tileGreen_41.png
+  - first:
+      213: -5170726868437014910
+    second: tileGreen_42.png
+  - first:
+      213: 7937471217432056210
+    second: tileGreen_43.png
+  - first:
+      213: -2053984089463994627
+    second: tileGreen_44.png
+  - first:
+      213: 1139103521305000655
+    second: tileGreen_45.png
+  - first:
+      213: 7640802753337551354
+    second: tileGreen_46.png
+  - first:
+      213: 3092975643565235240
+    second: tileGreen_47.png
+  - first:
+      213: -3032153799929333526
+    second: tileGreen_48.png
+  - first:
+      213: -4882217092675571375
+    second: tileGreen_49.png
+  - first:
+      213: -1730403549251316458
+    second: tileGreen_50.png
+  - first:
+      213: 3131579902916425336
+    second: tileGreen_51.png
+  - first:
+      213: -3579734943416676376
+    second: tileGreen_52.png
+  - first:
+      213: -2192761851552273078
+    second: tileGreen_53.png
+  - first:
+      213: 1423614809969992349
+    second: tileGreen_54.png
+  - first:
+      213: -5936000698324353831
+    second: tileGreen_55.png
+  - first:
+      213: 4038199865490784305
+    second: tileGreen_56.png
+  - first:
+      213: 7243685440220194659
+    second: tileGreen_57.png
+  - first:
+      213: 6409759252551494579
+    second: tileGreen_58.png
+  - first:
+      213: 2924818466952426975
+    second: tileGreen_59.png
+  - first:
+      213: -958218619719965237
+    second: tileGreen_60.png
+  - first:
+      213: -7699281285513396257
+    second: tileGreen_61.png
+  - first:
+      213: 1886865924018795574
+    second: tileGreen_62.png
+  - first:
+      213: 6984833390219590932
+    second: tileGreen_63.png
+  - first:
+      213: 7868040680163727791
+    second: tileGreen_64.png
+  - first:
+      213: 836452616298469964
+    second: tileGreen_65.png
+  - first:
+      213: 8487993659406726013
+    second: tileGreen_66.png
+  - first:
+      213: 3185474233743110175
+    second: tileGreen_67.png
+  - first:
+      213: 2627509304678061453
+    second: tileGreen_68.png
+  - first:
+      213: 3911254315643893500
+    second: tileGreen_69.png
+  - first:
+      213: -5185939910662956112
+    second: tileGreen_70.png
+  - first:
+      213: -2735148013675931302
+    second: tileGreen_71.png
+  - first:
+      213: -8740869293647193321
+    second: tileGreen_72.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileGreen_01.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c5294573ff0eb40800000000000000
+      internalID: 5467650560734944284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_02.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46437d9f2c6ecce70800000000000000
+      internalID: 9136931469117568100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_03.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e80d45f27536890800000000000000
+      internalID: -7466027896452116972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_04.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21bd93cd68109c30800000000000000
+      internalID: 4364014898634404139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_05.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 754
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab528de279c685cb0800000000000000
+      internalID: -4875027200046783046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_06.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944b48619accf2ae0800000000000000
+      internalID: -1571812718329678775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_07.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0815841b9bd6506a0800000000000000
+      internalID: -6483655444219276928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_08.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 884
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6b1fe2ba117d160800000000000000
+      internalID: 7050123168596473555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_09.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 912
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9f1617c3e5cc0d0800000000000000
+      internalID: -3401240004878272081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_10.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942c665f7416327a0800000000000000
+      internalID: -6403167283502988727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_11.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 530
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34011e808e1f948f0800000000000000
+      internalID: -555647100119871421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_12.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1154
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f4ea1b432d184a0800000000000000
+      internalID: -6592757255732572347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_13.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9a2be2284c5b070800000000000000
+      internalID: 8121613566440810979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_14.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fd04dd281405f70800000000000000
+      internalID: 9173904471267270489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_15.png
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 924
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fe959360c3528f0800000000000000
+      internalID: -565980180735463573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_16.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915e92b0fb93f0710800000000000000
+      internalID: 1661610280211834137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_17.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1144
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e051f1d0920137cd0800000000000000
+      internalID: -2561685994543835890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_18.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62434562def329610800000000000000
+      internalID: 1626432703217021990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_19.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683db8ef6e611cdf0800000000000000
+      internalID: -161822930239761530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_20.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2e71699ebb78fb0800000000000000
+      internalID: -4645537878689455428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_21.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 660
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6d3d96918910d20800000000000000
+      internalID: 3243040441600562933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_22.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6e0371ff59c2870800000000000000
+      internalID: 8659461106364901043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_23.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 782
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8198dc8aed00640800000000000000
+      internalID: 5044276399239141588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_24.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1034
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab48287bea9c8320800000000000000
+      internalID: 2561592624190868390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_25.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e35df81dac81100800000000000000
+      internalID: 79035994889076265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_26.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea7a9c3dae4886d0800000000000000
+      internalID: -2988051846807258386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_27.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 644
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb60cc2cd5d147e0800000000000000
+      internalID: -1782908835841676341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_28.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f563083c5d366e710800000000000000
+      internalID: 1722173677274936927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_29.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2819efeeadadf50800000000000000
+      internalID: 6907073698534097574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_30.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b868fffa140d16cf0800000000000000
+      internalID: -260698322866567541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_31.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4495aa0319b532130800000000000000
+      internalID: 3540774411188197700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_32.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 234
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b7f5d1459ca920800000000000000
+      internalID: 3002939161544470964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_33.png
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc18a442ffdf625c0800000000000000
+      internalID: -4240422726855392821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_34.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caedd6d11c1476bc0800000000000000
+      internalID: -3789988263730749780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_35.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 414
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f817fc0eda1b1caa0800000000000000
+      internalID: -6142433056397495921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_36.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634b064b8d102cd30800000000000000
+      internalID: 4450121412046271542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_37.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0629074f569d657d0800000000000000
+      internalID: -2929915475641986464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_38.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5052254bd5ef93190800000000000000
+      internalID: -7982069186126797563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_39.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 714
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e18821a9f0f1f440800000000000000
+      internalID: 4968016818907677153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_40.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b04bc6e658a22f0800000000000000
+      internalID: -996837658192508058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_41.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7195c8389928dc0800000000000000
+      internalID: -3638176758687524936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_42.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1124
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2866e301f43ed38b0800000000000000
+      internalID: -5170726868437014910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_43.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291dce98400972e60800000000000000
+      internalID: 7937471217432056210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_44.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 264
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6c1356a58ce73e0800000000000000
+      internalID: -2053984089463994627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_45.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 982
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf7cd0e98eecf00800000000000000
+      internalID: 1139103521305000655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_46.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9e2871f95990a60800000000000000
+      internalID: 7640802753337551354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_47.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 564
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c14a5e5f47cea20800000000000000
+      internalID: 3092975643565235240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_48.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae87cda1f20abe5d0800000000000000
+      internalID: -3032153799929333526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_49.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1517bbadb61ee3cb0800000000000000
+      internalID: -4882217092675571375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_50.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615dcc8d32f5cf7e0800000000000000
+      internalID: -1730403549251316458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_51.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 534
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876f513745b957b20800000000000000
+      internalID: 3131579902916425336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_52.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef8893090a325ec0800000000000000
+      internalID: -3579734943416676376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_53.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4de239b6beb191e0800000000000000
+      internalID: -2192761851552273078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_54.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 384
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d922f358022b1c310800000000000000
+      internalID: 1423614809969992349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_55.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcf7eda0d61f9da0800000000000000
+      internalID: -5936000698324353831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_56.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 982
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130cb92e1619a0830800000000000000
+      internalID: 4038199865490784305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_57.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1132
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3676ef8778db68460800000000000000
+      internalID: 7243685440220194659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_58.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 108
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbea10741a04f850800000000000000
+      internalID: 6409759252551494579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_59.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 86
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5b33b36ea079820800000000000000
+      internalID: 2924818466952426975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_60.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc52d620e39b3b2f0800000000000000
+      internalID: -958218619719965237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_61.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf392f9678a62590800000000000000
+      internalID: -7699281285513396257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_62.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634fde39f8e7f2a10800000000000000
+      internalID: 1886865924018795574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_63.png
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1164
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d735f06fc1fe060800000000000000
+      internalID: 6984833390219590932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_64.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa95b7bdf45e03d60800000000000000
+      internalID: 7868040680163727791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_65.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a9ae9093dab9b00800000000000000
+      internalID: 836452616298469964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_66.png
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 684
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73b4bc03496bc570800000000000000
+      internalID: 8487993659406726013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_67.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10fa6f20f3153c20800000000000000
+      internalID: 3185474233743110175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_68.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d859e5d9ac9c67420800000000000000
+      internalID: 2627509304678061453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_69.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 362
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6fa2ec311974630800000000000000
+      internalID: 3911254315643893500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_70.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 236
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbd966a027d708b0800000000000000
+      internalID: -5185939910662956112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_71.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 534
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a591bbc7f5dca0ad0800000000000000
+      internalID: -2735148013675931302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGreen_72.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b1a0440b132b680800000000000000
+      internalID: -8740869293647193321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

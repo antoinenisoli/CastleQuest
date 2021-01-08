@@ -1,0 +1,1868 @@
+fileFormatVersion: 2
+guid: 89bab1159006fa944ab967729bf91e50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7205589790405279934
+    second: tileBlue_01.png
+  - first:
+      213: 2951623261069767968
+    second: tileBlue_02.png
+  - first:
+      213: -8944723239738604024
+    second: tileBlue_03.png
+  - first:
+      213: -2876925284226518237
+    second: tileBlue_04.png
+  - first:
+      213: -451801745883719391
+    second: tileBlue_05.png
+  - first:
+      213: -730460485692393059
+    second: tileBlue_06.png
+  - first:
+      213: -4822459504005489922
+    second: tileBlue_07.png
+  - first:
+      213: -2250720490868865782
+    second: tileBlue_08.png
+  - first:
+      213: -4569917990078633992
+    second: tileBlue_09.png
+  - first:
+      213: -8771356636381064947
+    second: tileBlue_10.png
+  - first:
+      213: 8111462861370330734
+    second: tileBlue_11.png
+  - first:
+      213: -8456667566256515392
+    second: tileBlue_12.png
+  - first:
+      213: -5072207970046145624
+    second: tileBlue_13.png
+  - first:
+      213: 518943470180588451
+    second: tileBlue_14.png
+  - first:
+      213: -2742511241217749697
+    second: tileBlue_15.png
+  - first:
+      213: -2728975524613237380
+    second: tileBlue_16.png
+  - first:
+      213: 8984255155402136476
+    second: tileBlue_17.png
+  - first:
+      213: -232338228495996710
+    second: tileBlue_18.png
+  - first:
+      213: 3020306174917131641
+    second: tileBlue_19.png
+  - first:
+      213: 7544110699082469532
+    second: tileBlue_20.png
+  - first:
+      213: -4372314622025797888
+    second: tileBlue_21.png
+  - first:
+      213: -4710674290801774632
+    second: tileBlue_22.png
+  - first:
+      213: 5532593946095209472
+    second: tileBlue_23.png
+  - first:
+      213: -5271468528556654607
+    second: tileBlue_24.png
+  - first:
+      213: 6284029271851306405
+    second: tileBlue_25.png
+  - first:
+      213: -3566713885036191718
+    second: tileBlue_26.png
+  - first:
+      213: -3390612743971673397
+    second: tileBlue_27.png
+  - first:
+      213: 5656712886987866943
+    second: tileBlue_28.png
+  - first:
+      213: -9191764858065380250
+    second: tileBlue_29.png
+  - first:
+      213: 523927548248279542
+    second: tileBlue_30.png
+  - first:
+      213: 7916484304939729128
+    second: tileBlue_31.png
+  - first:
+      213: -4236221896405751962
+    second: tileBlue_32.png
+  - first:
+      213: 5951829376604217609
+    second: tileBlue_33.png
+  - first:
+      213: 3950643176989261906
+    second: tileBlue_34.png
+  - first:
+      213: 6599537869623953839
+    second: tileBlue_35.png
+  - first:
+      213: 200149285665297724
+    second: tileBlue_36.png
+  - first:
+      213: -121089313453440710
+    second: tileBlue_37.png
+  - first:
+      213: -200502106298806139
+    second: tileBlue_38.png
+  - first:
+      213: -8196216707895452175
+    second: tileBlue_39.png
+  - first:
+      213: -1795681765765539271
+    second: tileBlue_40.png
+  - first:
+      213: 7763148732889781687
+    second: tileBlue_41.png
+  - first:
+      213: -218737371557870504
+    second: tileBlue_42.png
+  - first:
+      213: 2178535715315745635
+    second: tileBlue_43.png
+  - first:
+      213: 6483465378855129505
+    second: tileBlue_44.png
+  - first:
+      213: 4367497820751878395
+    second: tileBlue_45.png
+  - first:
+      213: 3544758039085028942
+    second: tileBlue_46.png
+  - first:
+      213: -5061642268208949247
+    second: tileBlue_47.png
+  - first:
+      213: 321417596006356282
+    second: tileBlue_48.png
+  - first:
+      213: -8518333145748700349
+    second: tileBlue_49.png
+  - first:
+      213: 5643475185411261820
+    second: tileBlue_50.png
+  - first:
+      213: 440971538701424804
+    second: tileBlue_51.png
+  - first:
+      213: -3335036276032724432
+    second: tileBlue_52.png
+  - first:
+      213: -6642741364291620618
+    second: tileBlue_53.png
+  - first:
+      213: -2789297125253588580
+    second: tileBlue_54.png
+  - first:
+      213: 1164089559870024875
+    second: tileBlue_55.png
+  - first:
+      213: 1124489030203076557
+    second: tileBlue_56.png
+  - first:
+      213: -2002898272302712523
+    second: tileBlue_57.png
+  - first:
+      213: 898734886642810327
+    second: tileBlue_58.png
+  - first:
+      213: 7662409715833210618
+    second: tileBlue_59.png
+  - first:
+      213: 1674087123005175041
+    second: tileBlue_60.png
+  - first:
+      213: -366148299602096744
+    second: tileBlue_61.png
+  - first:
+      213: -1398286872854522303
+    second: tileBlue_62.png
+  - first:
+      213: -5864774326383354150
+    second: tileBlue_63.png
+  - first:
+      213: 3199135238088975422
+    second: tileBlue_64.png
+  - first:
+      213: 2379183896952751239
+    second: tileBlue_65.png
+  - first:
+      213: -7444240056412767773
+    second: tileBlue_66.png
+  - first:
+      213: 4060462979340035447
+    second: tileBlue_67.png
+  - first:
+      213: 3517605690411136531
+    second: tileBlue_68.png
+  - first:
+      213: 8365734362644289846
+    second: tileBlue_69.png
+  - first:
+      213: -8077926170253771886
+    second: tileBlue_70.png
+  - first:
+      213: 873396142232825482
+    second: tileBlue_71.png
+  - first:
+      213: -3753871269139141784
+    second: tileBlue_72.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileBlue_01.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0c94eccb56ff360800000000000000
+      internalID: 7205589790405279934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_02.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025f7d2b7b546f820800000000000000
+      internalID: 2951623261069767968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_03.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8060339ca95fdd380800000000000000
+      internalID: -8944723239738604024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_04.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323b65452bb1318d0800000000000000
+      internalID: -2876925284226518237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_05.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 754
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12913b3b4b0eab9f0800000000000000
+      internalID: -451801745883719391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_06.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9978d3fe02ecd5f0800000000000000
+      internalID: -730460485692393059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_07.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efadb00b1ae231db0800000000000000
+      internalID: -4822459504005489922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_08.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 884
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05811d63a5d3c0e0800000000000000
+      internalID: -2250720490868865782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_09.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 912
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f722bcecc36490c0800000000000000
+      internalID: -4569917990078633992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_10.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01dd32ac91e54680800000000000000
+      internalID: -8771356636381064947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_11.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 530
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e80ccfe74b19070800000000000000
+      internalID: 8111462861370330734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_12.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1154
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c696b167a1e3aa80800000000000000
+      internalID: -8456667566256515392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_13.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1014
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab8e7699b5eb99b0800000000000000
+      internalID: -5072207970046145624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_14.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 188
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5f9e2658a33700800000000000000
+      internalID: 518943470180588451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_15.png
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 924
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d43ba7e84a0f9d0800000000000000
+      internalID: -2742511241217749697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_16.png
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7551b6183bb02ad0800000000000000
+      internalID: -2728975524613237380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_17.png
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1144
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b5735967c7eac70800000000000000
+      internalID: 8984255155402136476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_18.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8a0c6bc9196ccf0800000000000000
+      internalID: -232338228495996710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_19.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dbadcb6784ae920800000000000000
+      internalID: 3020306174917131641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_20.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90d80dd5b012b860800000000000000
+      internalID: 7544110699082469532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_21.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 660
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fe7eb440b6253c0800000000000000
+      internalID: -4372314622025797888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_22.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfe134d0b250aeb0800000000000000
+      internalID: -4710674290801774632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_23.png
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 782
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c4b7b81e8b7cc40800000000000000
+      internalID: 5532593946095209472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_24.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1034
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffbabe7d4bf7d6b0800000000000000
+      internalID: -5271468528556654607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_25.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad8ada145b553750800000000000000
+      internalID: 6284029271851306405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_26.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10e6fa6e9c708ec0800000000000000
+      internalID: -3566713885036191718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_27.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 644
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcae7a07caf12f0d0800000000000000
+      internalID: -3390612743971673397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_28.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f334941766ea08e40800000000000000
+      internalID: 5656712886987866943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_29.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c1818cf8a407080800000000000000
+      internalID: -9191764858065380250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_30.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f94169445d554700800000000000000
+      internalID: 523927548248279542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_31.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e043e138800ddd60800000000000000
+      internalID: 7916484304939729128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_32.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 234
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667e00331aae535c0800000000000000
+      internalID: -4236221896405751962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_33.png
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 714
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901aa3ca845299250800000000000000
+      internalID: 5951829376604217609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_34.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25004ceb90183d630800000000000000
+      internalID: 3950643176989261906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_35.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 414
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa98ca00ab4469b50800000000000000
+      internalID: 6599537869623953839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_36.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35d02207b217c200800000000000000
+      internalID: 200149285665297724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_37.png
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31038539edc15ef0800000000000000
+      internalID: -121089313453440710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_38.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5809759856ca73df0800000000000000
+      internalID: -200502106298806139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_39.png
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 714
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd15cf5450314e80800000000000000
+      internalID: -8196216707895452175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_40.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a16eda2f47417e0800000000000000
+      internalID: -1795681765765539271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_41.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b55b6244ae3cbb60800000000000000
+      internalID: 7763148732889781687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_42.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1124
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854c03df483e6fcf0800000000000000
+      internalID: -218737371557870504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_43.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 374
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36385e1d0b6bb3e10800000000000000
+      internalID: 2178535715315745635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_44.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 264
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a114344965e9f950800000000000000
+      internalID: 6483465378855129505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_45.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 982
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf85533c0287c9c30800000000000000
+      internalID: 4367497820751878395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_46.png
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 856
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e469f56d7a2813130800000000000000
+      internalID: 3544758039085028942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_47.png
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 564
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1089d4fbc2f61c9b0800000000000000
+      internalID: -5061642268208949247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_48.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35d482c997e57400800000000000000
+      internalID: 321417596006356282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_49.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3438631d22dc8c980800000000000000
+      internalID: -8518333145748700349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_50.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c758b2dd7c6a15e40800000000000000
+      internalID: 5643475185411261820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_51.png
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 534
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a81b503745ae1600800000000000000
+      internalID: 440971538701424804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_52.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 824
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032270e3d2297b1d0800000000000000
+      internalID: -3335036276032724432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_53.png
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 974
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0ba968ced30d3a0800000000000000
+      internalID: -6642741364291620618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_54.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 384
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99dd3cfa0d6a49d0800000000000000
+      internalID: -2789297125253588580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_55.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 74
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac2bce794da72010800000000000000
+      internalID: 1164089559870024875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_56.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 982
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfe31fa0dcfa9f00800000000000000
+      internalID: 1124489030203076557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_57.png
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1132
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539372612a64434e0800000000000000
+      internalID: -2002898272302712523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_58.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 108
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd78912e92f87c00800000000000000
+      internalID: 898734886642810327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_59.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 86
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af68db31a09565a60800000000000000
+      internalID: 7662409715833210618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_60.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10577c16e5d8b3710800000000000000
+      internalID: 1674087123005175041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_61.png
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1124
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d8a1bbf0e2beaf0800000000000000
+      internalID: -366148299602096744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_62.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 208
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1461a616f79489ce0800000000000000
+      internalID: -1398286872854522303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_63.png
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1164
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aded614b2d22c9ea0800000000000000
+      internalID: -5864774326383354150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_64.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 674
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e346abe9c8c956c20800000000000000
+      internalID: 3199135238088975422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_65.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 524
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784c239162f840120800000000000000
+      internalID: 2379183896952751239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_66.png
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 684
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e978c62c1fb0b890800000000000000
+      internalID: -7444240056412767773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_67.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 224
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775ef230199a95830800000000000000
+      internalID: 4060462979340035447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_68.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31639d40dbb01d030800000000000000
+      internalID: 3517605690411136531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_69.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 362
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63911ba441f091470800000000000000
+      internalID: 8365734362644289846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_70.png
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 236
+        width: 149
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b313462f075ef80800000000000000
+      internalID: -8077926170253771886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_71.png
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 534
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8eebf5f92dee1c00800000000000000
+      internalID: 873396142232825482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBlue_72.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86baa6638f197ebc0800000000000000
+      internalID: -3753871269139141784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

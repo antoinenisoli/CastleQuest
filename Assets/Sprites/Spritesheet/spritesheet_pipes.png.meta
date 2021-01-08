@@ -1,0 +1,2252 @@
+fileFormatVersion: 2
+guid: b9355c4f8002c4f4d88e16f2ae21a127
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2557913631434905372
+    second: pipeGreen_01.png
+  - first:
+      213: 5200214672546510381
+    second: pipeGreen_02.png
+  - first:
+      213: 6384390036983000426
+    second: pipeGreen_03.png
+  - first:
+      213: -5388736117644500355
+    second: pipeGreen_04.png
+  - first:
+      213: -7861694745773358885
+    second: pipeGreen_05.png
+  - first:
+      213: -2773596862653609883
+    second: pipeGreen_06.png
+  - first:
+      213: -5099781813308281653
+    second: pipeGreen_07.png
+  - first:
+      213: -8103917513334958497
+    second: pipeGreen_08.png
+  - first:
+      213: -1111263683948996313
+    second: pipeGreen_09.png
+  - first:
+      213: -1958253479712172168
+    second: pipeGreen_10.png
+  - first:
+      213: -4699763162921841507
+    second: pipeGreen_11.png
+  - first:
+      213: -7636378885912643550
+    second: pipeGreen_12.png
+  - first:
+      213: 4803323811964159830
+    second: pipeGreen_13.png
+  - first:
+      213: 5998402056143494792
+    second: pipeGreen_14.png
+  - first:
+      213: -6081083360604666924
+    second: pipeGreen_15.png
+  - first:
+      213: -4955526621269429026
+    second: pipeGreen_16.png
+  - first:
+      213: 9112754452568512345
+    second: pipeGreen_17.png
+  - first:
+      213: -3390237469606344882
+    second: pipeGreen_18.png
+  - first:
+      213: -4238169183742911823
+    second: pipeGreen_19.png
+  - first:
+      213: -7543123805342001494
+    second: pipeGreen_20.png
+  - first:
+      213: -1576944213441461612
+    second: pipeGreen_21.png
+  - first:
+      213: 282227355004458442
+    second: pipeGreen_22.png
+  - first:
+      213: -435204995417392967
+    second: pipeGreen_23.png
+  - first:
+      213: -6172585864613059989
+    second: pipeGreen_24.png
+  - first:
+      213: -1583071640320761057
+    second: pipeGreen_25.png
+  - first:
+      213: -3621611010755706289
+    second: pipeGreen_26.png
+  - first:
+      213: -7889709376651551461
+    second: pipeGreen_27.png
+  - first:
+      213: 8044857058049197621
+    second: pipeGreen_28.png
+  - first:
+      213: 6125606756292236882
+    second: pipeGreen_29.png
+  - first:
+      213: 6908603892896317983
+    second: pipeGreen_30.png
+  - first:
+      213: -3971292354361416894
+    second: pipeGreen_31.png
+  - first:
+      213: -9216124025974618334
+    second: pipeGreen_32.png
+  - first:
+      213: -4657748875752107607
+    second: pipeGreen_33.png
+  - first:
+      213: -1839885896670880016
+    second: pipeGreen_34.png
+  - first:
+      213: -7497868303686639476
+    second: pipeGreen_35.png
+  - first:
+      213: 3022519498478177084
+    second: pipeGreen_36.png
+  - first:
+      213: -7496131230727322063
+    second: pipeGreen_37.png
+  - first:
+      213: -8967875615877490099
+    second: pipeGreen_38.png
+  - first:
+      213: 2485759778322813051
+    second: pipeGreen_39.png
+  - first:
+      213: -3712547208077432170
+    second: pipeGreen_40.png
+  - first:
+      213: 5339606072383985902
+    second: pipeGreen_41.png
+  - first:
+      213: 8574317991716942990
+    second: pipeGreen_42.png
+  - first:
+      213: -7723217184851575579
+    second: pipeGreen_43.png
+  - first:
+      213: -7095671787835393229
+    second: pipeGreen_44.png
+  - first:
+      213: -8093183724800264810
+    second: pipeGrey_01.png
+  - first:
+      213: 7661927385885187241
+    second: pipeGrey_02.png
+  - first:
+      213: -6098081156202501140
+    second: pipeGrey_03.png
+  - first:
+      213: 5107895353514672889
+    second: pipeGrey_04.png
+  - first:
+      213: -4909874452215078589
+    second: pipeGrey_05.png
+  - first:
+      213: 2461387923185764121
+    second: pipeGrey_06.png
+  - first:
+      213: -6982524662639477028
+    second: pipeGrey_07.png
+  - first:
+      213: 5667027630969318020
+    second: pipeGrey_08.png
+  - first:
+      213: -2151063563725788262
+    second: pipeGrey_09.png
+  - first:
+      213: 2130326576281853378
+    second: pipeGrey_10.png
+  - first:
+      213: 6637338553914562258
+    second: pipeGrey_11.png
+  - first:
+      213: -5850693448794209393
+    second: pipeGrey_12.png
+  - first:
+      213: 620966751136196482
+    second: pipeGrey_13.png
+  - first:
+      213: 5716199792752520927
+    second: pipeGrey_14.png
+  - first:
+      213: -846662147803651744
+    second: pipeGrey_15.png
+  - first:
+      213: -2862590640253677024
+    second: pipeGrey_16.png
+  - first:
+      213: -5504887334055178184
+    second: pipeGrey_17.png
+  - first:
+      213: 4136130067106319114
+    second: pipeGrey_18.png
+  - first:
+      213: -1959975442862538935
+    second: pipeGrey_19.png
+  - first:
+      213: 3323777593211883991
+    second: pipeGrey_20.png
+  - first:
+      213: 6236077987766052511
+    second: pipeGrey_21.png
+  - first:
+      213: -8926934708025175756
+    second: pipeGrey_22.png
+  - first:
+      213: -4491593883413460938
+    second: pipeGrey_23.png
+  - first:
+      213: -2329847655193175281
+    second: pipeGrey_24.png
+  - first:
+      213: 2584174554878151226
+    second: pipeGrey_25.png
+  - first:
+      213: -2967802285400200017
+    second: pipeGrey_26.png
+  - first:
+      213: 5942301619728713391
+    second: pipeGrey_27.png
+  - first:
+      213: 5765693953007536230
+    second: pipeGrey_28.png
+  - first:
+      213: -5879176489459686823
+    second: pipeGrey_29.png
+  - first:
+      213: -4571369505607399184
+    second: pipeGrey_30.png
+  - first:
+      213: -1083878537822944830
+    second: pipeGrey_31.png
+  - first:
+      213: -523156130375209568
+    second: pipeGrey_32.png
+  - first:
+      213: 5498596009801832508
+    second: pipeGrey_33.png
+  - first:
+      213: -1674091908024150181
+    second: pipeGrey_34.png
+  - first:
+      213: -1688359828215628538
+    second: pipeGrey_35.png
+  - first:
+      213: -6253019513601636739
+    second: pipeGrey_36.png
+  - first:
+      213: -426518388908859848
+    second: pipeGrey_37.png
+  - first:
+      213: 2331689771403823434
+    second: pipeGrey_38.png
+  - first:
+      213: -8364220829523868325
+    second: pipeGrey_39.png
+  - first:
+      213: 930956965057972027
+    second: pipeGrey_40.png
+  - first:
+      213: 9087163286994260091
+    second: pipeGrey_41.png
+  - first:
+      213: 5199867437618625524
+    second: pipeGrey_42.png
+  - first:
+      213: -8444605285253672775
+    second: pipeGrey_43.png
+  - first:
+      213: -856116725794823923
+    second: pipeGrey_44.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pipeGreen_01.png
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 2
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e86138ca17708cd0800000000000000
+      internalID: -2557913631434905372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_02.png
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 242
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26b8e851bfda2840800000000000000
+      internalID: 5200214672546510381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_03.png
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 803
+        width: 102
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d2ae5a9e8e99850800000000000000
+      internalID: 6384390036983000426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_04.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1718
+        width: 219
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d726b7f3d0d5735b0800000000000000
+      internalID: -5388736117644500355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_05.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1556
+        width: 219
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0cf912846a5e290800000000000000
+      internalID: -7861694745773358885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_06.png
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 428
+        width: 220
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568c46b39543289d0800000000000000
+      internalID: -2773596862653609883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_07.png
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 405
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc23c9e57fe939b0800000000000000
+      internalID: -5099781813308281653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_08.png
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 79
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f565a9045f9198f80800000000000000
+      internalID: -8103917513334958497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_09.png
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 582
+        width: 102
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7299d62319ff390f0800000000000000
+      internalID: -1111263683948996313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_10.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1186
+        width: 219
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8775591e5d2e2d4e0800000000000000
+      internalID: -1958253479712172168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_11.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1290
+        width: 219
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cc391cd4617ceb0800000000000000
+      internalID: -4699763162921841507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_12.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 649
+        width: 220
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22832eeccd1260690800000000000000
+      internalID: -7636378885912643550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_13.png
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 729
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6578c41de85d8a240800000000000000
+      internalID: 4803323811964159830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_14.png
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1498
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ed760a3ea9e3350800000000000000
+      internalID: 5998402056143494792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_15.png
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1660
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3ce9907e6ab9ba0800000000000000
+      internalID: -6081083360604666924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_16.png
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1113
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed47e302bce6a3bb0800000000000000
+      internalID: -4955526621269429026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_17.png
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1275
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95794b6a4e1077e70800000000000000
+      internalID: 9112754452568512345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_18.png
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 891
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4705efcbf473f0d0800000000000000
+      internalID: -3390237469606344882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_19.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 323
+        width: 220
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba1ff8059ffe25c0800000000000000
+      internalID: -4238169183742911823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_20.png
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 309
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa61ccd3dd0715790800000000000000
+      internalID: -7543123805342001494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_21.png
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 531
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492c637c7919d1ae0800000000000000
+      internalID: -1576944213441461612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_22.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 486
+        width: 220
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac550f8b84caae300800000000000000
+      internalID: 282227355004458442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_23.png
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 342
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8bbabcc57d5f9f0800000000000000
+      internalID: -435204995417392967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_24.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1227
+        width: 176
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6224222cd1965aa0800000000000000
+      internalID: -6172585864613059989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_25.png
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1261
+        width: 118
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13afa80bbcc70ae0800000000000000
+      internalID: -1583071640320761057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_26.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 235
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42434d49f37dbdc0800000000000000
+      internalID: -3621611010755706289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_27.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1644
+        width: 235
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d9d979f1f128290800000000000000
+      internalID: -7889709376651551461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_28.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 811
+        width: 236
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53601ddeed215af60800000000000000
+      internalID: 8044857058049197621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_29.png
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 932
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2561886d3e6820550800000000000000
+      internalID: 6125606756292236882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_30.png
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 753
+        width: 176
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1247f123aa40ef50800000000000000
+      internalID: 6908603892896317983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_31.png
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1261
+        width: 118
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243201ff4a223e8c0800000000000000
+      internalID: -3971292354361416894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_32.png
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 38
+        width: 235
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22707d90700c91080800000000000000
+      internalID: -9216124025974618334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_33.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1288
+        width: 235
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a112d7431a5c5fb0800000000000000
+      internalID: -4657748875752107607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_34.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 236
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe5ead66896776e0800000000000000
+      internalID: -1839885896670880016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_35.png
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1110
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80e812d08832f790800000000000000
+      internalID: -7497868303686639476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_36.png
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 164
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bcb79487522f920800000000000000
+      internalID: 3022519498478177084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_37.png
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 342
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13649c2ac5468f790800000000000000
+      internalID: -7496131230727322063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_38.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 164
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a1cb524a4bb8380800000000000000
+      internalID: -8967875615877490099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_39.png
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 97
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7092e729513f7220800000000000000
+      internalID: 2485759778322813051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_40.png
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 520
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a2da2fbf16a7cc0800000000000000
+      internalID: -3712547208077432170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_41.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee857f0be671a1a40800000000000000
+      internalID: 5339606072383985902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_42.png
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 752
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e847787e8c81ef670800000000000000
+      internalID: 8574317991716942990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_43.png
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 990
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecbab5c3ee91d490800000000000000
+      internalID: -7723217184851575579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGreen_44.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1227
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b7f4b7a1c178d90800000000000000
+      internalID: -7095671787835393229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_01.png
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 567
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695be45284c3faf80800000000000000
+      internalID: -8093183724800264810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_02.png
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1659
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac1682ec52a45a60800000000000000
+      internalID: 7661927385885187241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_03.png
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 769
+        width: 102
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebeb095f734f5ba0800000000000000
+      internalID: -6098081156202501140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_04.png
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 758
+        width: 219
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f24c10e2c3e2e640800000000000000
+      internalID: 5107895353514672889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_05.png
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 862
+        width: 219
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34164f7033f9cdbb0800000000000000
+      internalID: -4909874452215078589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_06.png
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 649
+        width: 220
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9178cef664b982220800000000000000
+      internalID: 2461387923185764121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_07.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 2
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde38f770d6191f90800000000000000
+      internalID: -6982524662639477028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_08.png
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1659
+        width: 160
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48aef3cea9355ae40800000000000000
+      internalID: 5667027630969318020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_09.png
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 361
+        width: 102
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ba6dae513e522e0800000000000000
+      internalID: -2151063563725788262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_10.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1452
+        width: 219
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd9ad2fbb0709d10800000000000000
+      internalID: 2130326576281853378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_11.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1024
+        width: 219
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d61518af309c1c50800000000000000
+      internalID: 6637338553914562258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_12.png
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 44
+        width: 220
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f838aee7e492ecea0800000000000000
+      internalID: -5850693448794209393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_13.png
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1497
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2872dca58fd1e9800800000000000000
+      internalID: 620966751136196482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_14.png
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1497
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdeec200d65045f40800000000000000
+      internalID: 5716199792752520927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_15.png
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 147
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061e46b234d0044f0800000000000000
+      internalID: -846662147803651744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_16.png
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1335
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0225256baf80648d0800000000000000
+      internalID: -2862590640253677024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_17.png
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 309
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8301815c226ba93b0800000000000000
+      internalID: -5504887334055178184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_18.png
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 531
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b4fa2c16c766930800000000000000
+      internalID: 4136130067106319114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_19.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 160
+        width: 220
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f70b718b4ccc4e0800000000000000
+      internalID: -1959975442862538935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_20.png
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 87
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d11cc36c1e602e20800000000000000
+      internalID: 3323777593211883991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_21.png
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1113
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96ad64c3effa8650800000000000000
+      internalID: 6236077987766052511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_22.png
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 265
+        width: 220
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431dd031e282d1480800000000000000
+      internalID: -8926934708025175756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_23.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1644
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638c2d71927aaa1c0800000000000000
+      internalID: -4491593883413460938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_24.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1048
+        width: 176
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b1f63d6e7baafd0800000000000000
+      internalID: -2329847655193175281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_25.png
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1024
+        width: 118
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a8d1de015dcd320800000000000000
+      internalID: 2584174554878151226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_26.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1048
+        width: 235
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: face027ab8f30d6d0800000000000000
+      internalID: -2967802285400200017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_27.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 870
+        width: 235
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa68828e6db477250800000000000000
+      internalID: 5942301619728713391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_28.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1406
+        width: 236
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668c1a03a1cd30050800000000000000
+      internalID: 5765693953007536230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_29.png
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1228
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9526dedc128f86ea0800000000000000
+      internalID: -5879176489459686823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_30.png
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 573
+        width: 176
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8c731a7ab3f80c0800000000000000
+      internalID: -4571369505607399184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_31.png
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1024
+        width: 118
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1c465663a45f0f0800000000000000
+      internalID: -1083878537822944830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_32.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1168
+        width: 235
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adeaee65406db8f0800000000000000
+      internalID: -523156130375209568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_33.png
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1466
+        width: 235
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c385e9720ffee4c40800000000000000
+      internalID: 5498596009801832508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_34.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 574
+        width: 236
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b575dd4874e64c8e0800000000000000
+      internalID: -1674091908024150181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_35.png
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1644
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dfa2a7eadb198e0800000000000000
+      internalID: -1688359828215628538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_36.png
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1466
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76403ed1efc839a0800000000000000
+      internalID: -6253019513601636739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_37.png
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1288
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e5aeaf8c3b41af0800000000000000
+      internalID: -426518388908859848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_38.png
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1406
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49cfe64e73db5020800000000000000
+      internalID: 2331689771403823434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_39.png
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1584
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b558e4998715ceb80800000000000000
+      internalID: -8364220829523868325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_40.png
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 335
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37c4736d6c6bec00800000000000000
+      internalID: 930956965057972027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_41.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7093491dd61c1e70800000000000000
+      internalID: 9087163286994260091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_42.png
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 520
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbf06a62e3a92840800000000000000
+      internalID: 5199867437618625524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_43.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1406
+        width: 176
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b091180c3cbeca80800000000000000
+      internalID: -8444605285253672775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipeGrey_44.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1643
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01aab0bf567e14f0800000000000000
+      internalID: -856116725794823923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
