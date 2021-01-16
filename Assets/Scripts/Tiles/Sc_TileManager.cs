@@ -6,17 +6,18 @@ using DG.Tweening;
 
 public class Sc_TileManager : MonoBehaviour
 {
+    [HideInInspector] public Sc_GameManager gameManager;
     [SerializeField] Sprite[] allSprites;
     [SerializeField] GameObject tilePrefab;
     [SerializeField] Vector2Int levelArray;
     [HideInInspector] public GameObject highlightedTile;
     public GameObject[,] grid = new GameObject[5, 10];
     List<Sc_Tile> correctTiles = new List<Sc_Tile>();
-    public bool stopGame;
 
     [Header("Tile tweens")]
     [Range(0,1)] public float tileDeathDuration = 0.3f;
     [Range(0, 1)] public float tileBirthDuration = 0.3f;
+    [SerializeField] float swapDuration = 0.2f;
 
     private void OnDrawGizmos()
     {
@@ -26,13 +27,14 @@ public class Sc_TileManager : MonoBehaviour
 
     private void Start()
     {
+        gameManager = FindObjectOfType<Sc_GameManager>();
         grid = new GameObject[levelArray.x, levelArray.y];
         StartCoroutine(GenerateGrid(false, 0));
     }
 
     public IEnumerator GenerateGrid(bool replace, float delay)
     {
-        stopGame = true;
+        gameManager.canPlay = false;
         yield return new WaitForSeconds(delay);
         for (int i = 0; i < grid.GetLength(1); i++)
         {
@@ -71,7 +73,7 @@ public class Sc_TileManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(0.15f);
-        stopGame = false;
+        gameManager.canPlay = true;
     }
 
     public Vector2Int GetTileCoordinates(GameObject obj)
@@ -100,6 +102,7 @@ public class Sc_TileManager : MonoBehaviour
 
     public void Swap(Sc_Tile firstTile, Sc_Tile secondTile)
     {
+        gameManager.RemoveAction();
         Vector2Int objCoord = GetTileCoordinates(firstTile.gameObject);
         Vector2Int toSwapCoord = GetTileCoordinates(secondTile.gameObject);
 
@@ -112,15 +115,14 @@ public class Sc_TileManager : MonoBehaviour
         grid[toSwapCoord.x, toSwapCoord.y] = firstTile.gameObject;
         secondTile.coordinates = objCoord;
 
-        float delay = 0.5f;
-        secondTile.transform.DOMove(objPosition, delay);
-        firstTile.transform.DOMove(swapPosition, delay);
+        secondTile.transform.DOMove(objPosition, swapDuration);
+        firstTile.transform.DOMove(swapPosition, swapDuration);
         secondTile.gameObject.name = secondTile.ToString();
         firstTile.gameObject.name = firstTile.ToString();
 
-        StartCoroutine(CheckThisTile(firstTile, delay));
-        StartCoroutine(CheckThisTile(secondTile, delay));
-        StartCoroutine(GenerateGrid(true, delay * 2 + tileDeathDuration));
+        StartCoroutine(CheckThisTile(firstTile, swapDuration));
+        StartCoroutine(CheckThisTile(secondTile, swapDuration));
+        StartCoroutine(GenerateGrid(true, swapDuration * 2 + tileDeathDuration));
     }
 
     List<Sc_Tile> CheckLine(Sc_Tile startTile, Vector2Int direction)
@@ -153,7 +155,6 @@ public class Sc_TileManager : MonoBehaviour
             if (outB)
             {
                 outB = false;
-                print(lastCoord);
                 break;
             }
         }
@@ -195,7 +196,7 @@ public class Sc_TileManager : MonoBehaviour
 
     IEnumerator CheckThisTile(Sc_Tile startTile, float delay)
     {
-        stopGame = true;
+        gameManager.canPlay = false;
         yield return new WaitForSeconds(delay);
         correctTiles.AddRange(CheckLine(startTile, Vector2Int.left)); //horizontal
         correctTiles.AddRange(CheckLine(startTile, Vector2Int.up)); //vertical
@@ -210,13 +211,12 @@ public class Sc_TileManager : MonoBehaviour
         float offset = 0;
         foreach (Sc_Tile tile in correctTiles)
         {
-            Sc_Score.instance.ModifyScore(tile.scoreValue);
             offset += 0.15f;
             tile.Death(offset);
         }
 
         correctTiles.Clear();
-        stopGame = false;
+        gameManager.canPlay = true;
     }
 
     public GameObject GetAdjacentCell(Vector2Int direction, Sc_Tile baseTile)

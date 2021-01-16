@@ -62,7 +62,7 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
         if (!inDrag)
             inDrag = true;
 
-        if (tileManager.stopGame)
+        if (!tileManager.gameManager.canPlay)
             return;
 
         mouseNextPos = mainCam.ScreenToWorldPoint(Input.mousePosition);
