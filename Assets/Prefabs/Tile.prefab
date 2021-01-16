@@ -132,8 +132,9 @@ MonoBehaviour:
   myText: {fileID: 4657155626085538835}
   scoreValue: 100
   fx: {fileID: 5477192746909302544, guid: 4a83ce5c3f8fc134bae458cc72b4beb8, type: 3}
-  debug: 0
+  debug: 1
   glowSprite: {fileID: 2100000, guid: e131d9591a5b736459270c39fea3bbc2, type: 2}
+  highlight: 0
 --- !u!61 &-2327294639814742479
 BoxCollider2D:
   m_ObjectHideFlags: 0

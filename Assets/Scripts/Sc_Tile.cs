@@ -7,17 +7,17 @@ using DG.Tweening;
 
 public enum TileType
 {
-    Blue,
-    Green,
-    Red,
-    Yellow,
+    Mana,
+    Defense,
+    Life,
+    Attack,
 }
 
 public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 {
-    Sc_TileGenerator generator => FindObjectOfType<Sc_TileGenerator>();
-    Camera mainCam => Camera.main;
-    SpriteRenderer spriteRender => GetComponentInChildren<SpriteRenderer>();
+    Sc_TileManager tileManager;
+    Camera mainCam;
+    SpriteRenderer spriteRender;
 
     public TileType myType;
     public Vector2Int coordinates;
@@ -33,8 +33,11 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
     public bool highlight;
     bool inDrag;
 
-    private void Start()
+    private void Awake()
     {
+        tileManager = FindObjectOfType<Sc_TileManager>();
+        mainCam = Camera.main;
+        spriteRender = GetComponentInChildren<SpriteRenderer>();
         baseMat = spriteRender.material;
     }
 
@@ -42,7 +45,7 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         Vector3 baseScale = transform.localScale;
         transform.localScale = Vector3.one * 0.01f;
-        transform.DOScale(baseScale, 0.5f);
+        transform.DOScale(baseScale, tileManager.tileBirthDuration);
 
         System.Array array = System.Enum.GetValues(typeof(TileType));
         spriteRender.sprite = spr;
@@ -51,16 +54,16 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public bool IsSameOf(Sc_Tile obj2)
     {
-        if (myType == obj2.myType)
-            return true;
-        else
-            return false;
+        return myType == obj2.myType;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         if (!inDrag)
             inDrag = true;
+
+        if (tileManager.stopGame)
+            return;
 
         mouseNextPos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         Vector2Int direction = Vector2Int.zero;
@@ -73,22 +76,22 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
         else if ((mousePos - mouseNextPos).normalized.y < -0.9f)
             direction = new Vector2Int(0, -1);
 
-        generator.highlightedTile = generator.GetAdjacentCell(direction, this);
+        tileManager.highlightedTile = tileManager.GetAdjacentCell(direction, this);
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (generator.highlightedTile != null)
-            generator.Swap(this, generator.highlightedTile.GetComponent<Sc_Tile>());
+        if (tileManager.highlightedTile != null)
+            tileManager.Swap(this, tileManager.highlightedTile.GetComponent<Sc_Tile>());
 
-        generator.highlightedTile = null;
+        tileManager.highlightedTile = null;
     }
 
-    public void Death()
+    public void Death(float offsetDelay)
     {
-        float delay = 0.5f;
+        float delay = offsetDelay + tileManager.tileDeathDuration;
         transform.DOScale(transform.localScale * 1.4f, delay);
-        transform.DOScale(0.01f, delay/2).SetDelay(delay/2);
+        transform.DOScale(0.01f, delay / 2).SetDelay(delay / 2);
         Destroy(gameObject, delay);
         GameObject newFX = Instantiate(fx, transform.position, Quaternion.Euler(90, 0, 0));
         newFX.GetComponent<ParticleSystem>().textureSheetAnimation.SetSprite(0, spriteRender.sprite);
@@ -105,5 +108,10 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
         myText.text = "[" + coordinates.x + "," + coordinates.y + "]";
 
         spriteRender.material = highlight ? glowSprite : baseMat;
+    }
+
+    public override string ToString()
+    {
+        return myType + " " + coordinates;
     }
 }
