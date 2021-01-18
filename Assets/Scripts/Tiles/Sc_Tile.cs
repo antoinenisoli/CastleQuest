@@ -21,17 +21,23 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public TileType myType;
     public Vector2Int coordinates;
-    [SerializeField] TextMeshPro myText;
+
+    [Header("Bonus")]
+    public SpellType currentEffect;
+    [SerializeField] SpriteRenderer spellSpriteRenderer;
+    [SerializeField] Sprite[] spellSprites;
     public int bonusValue = 0;
+    [SerializeField] TextMeshPro bonusText;
+
+    [Header("")]
     [SerializeField] GameObject fx;
-    [SerializeField] bool debug;
+    public bool highlight;
     [SerializeField] Material glowSprite;
     [SerializeField] Sprite[] allSprites;
     Material baseMat;
 
     Vector3 mousePos;
     Vector3 mouseNextPos;
-    public bool highlight;
     bool inDrag;
 
     private void Awake()
@@ -40,6 +46,45 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
         mainCam = Camera.main;
         spriteRender = GetComponentInChildren<SpriteRenderer>();
         baseMat = spriteRender.material;
+        SetBonus(0);
+        SetEffect(SpellType.None);
+    }
+
+    public void SetEffect(SpellType type)
+    {
+        currentEffect = type;
+        if (currentEffect == SpellType.None)
+        {
+            spellSpriteRenderer.gameObject.SetActive(false);
+            return;
+        }
+        else
+        {
+            spellSpriteRenderer.gameObject.SetActive(true);
+            spellSpriteRenderer.sprite = spellSprites[(int)type - 1];
+        }
+    }
+
+    public void SetBonus(int value)
+    {
+        bonusValue = value;
+        bonusText.text = "+" + bonusValue;
+        bonusText.gameObject.SetActive(bonusValue > 0);
+        switch (myType)
+        {
+            case TileType.Mana:
+                bonusText.color = Color.blue;
+                break;
+            case TileType.Defense:
+                bonusText.color = Color.green;
+                break;
+            case TileType.Life:
+                bonusText.color = Color.red;
+                break;
+            case TileType.Attack:
+                bonusText.color = Color.yellow;
+                break;
+        }
     }
 
     public void Creation(int index)
@@ -87,12 +132,17 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void Death()
     {
+        if (transform == null)
+            return;
+
+        Sequence sequence = DOTween.Sequence();
         float delay = tileManager.tileDeathDuration;
-        transform.DOScale(transform.localScale * 1.4f, delay);
-        transform.DOScale(0.01f, delay / 2).SetDelay(delay / 2);
-        Destroy(gameObject, delay);
+        sequence.Append(transform.DOScale(transform.localScale * 1.2f, delay));
+        sequence.Append(transform.DOScale(0.01f, delay / 2).SetDelay(delay / 2));
+        sequence.Play();
         GameObject newFX = Instantiate(fx, transform.position, Quaternion.Euler(90, 0, 0));
         newFX.GetComponent<ParticleSystem>().textureSheetAnimation.SetSprite(0, spriteRender.sprite);
+        Destroy(gameObject, sequence.Duration());
     }
 
     private void OnMouseDown()
@@ -102,9 +152,6 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 
     private void Update()
     {
-        myText.gameObject.SetActive(debug);
-        myText.text = "[" + coordinates.x + "," + coordinates.y + "]";
-
         spriteRender.material = highlight ? glowSprite : baseMat;
     }
 

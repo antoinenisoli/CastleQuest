@@ -28,7 +28,6 @@ public class Sc_CreatureUI : MonoBehaviour
     [SerializeField] Sc_Creature myCreature;
     [SerializeField] Text creatureName;
     [SerializeField] Image displayCreaturePortrait;
-    [SerializeField] Sprite creaturePortrait;
 
     [Header("Grow Text")]
     [SerializeField] float growStrength = 0.3f;
@@ -43,7 +42,7 @@ public class Sc_CreatureUI : MonoBehaviour
     private void Start()
     {
         Sc_EventManager.instance.onUpdateStats.AddListener(SetInfo);
-        displayCreaturePortrait.sprite = creaturePortrait;
+        displayCreaturePortrait.sprite = myCreature.profile.portrait;
         if (myCreature.GetComponent<Sc_Player>())
             Sc_EventManager.instance.onGrowStat.AddListener(GrowStat);
 
@@ -86,7 +85,7 @@ public class Sc_CreatureUI : MonoBehaviour
             item.UpdateDisplay(myCreature);
         }
 
-        creatureName.text = myCreature.name;
+        creatureName.text = myCreature.profile.name;
         attackValue.text = myCreature.GetAttack.Value + "";
         defenseValue.text = myCreature.GetDefense.Value + "";
     }

@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LavaLevel.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 93085f4cc00c86c4da9121aa90961428
+  - enabled: 1
+    path: Assets/Scenes/Levels/BattleGround.unity
+    guid: 8acba7622f30b32459d5727bea37743d
+  - enabled: 1
+    path: Assets/Scenes/Levels/FrozenValley.unity
+    guid: 998f6963ddd64b94cbfb10df451af52d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Volcano.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

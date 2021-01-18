@@ -12,8 +12,9 @@ public class Sc_TileManager : MonoBehaviour
     [HideInInspector] public GameObject highlightedTile;
     public GameObject[,] grid = new GameObject[5, 10];
     float offset;
-    [SerializeField] bool canSwap = false;
-    Dictionary<TileType, TileEffect> allEffects = new Dictionary<TileType, TileEffect>();
+    public bool canSwap = false;
+    Dictionary<TileType, TileEffect> allNormalEffects = new Dictionary<TileType, TileEffect>();
+    Dictionary<SpellType, TileEffect> allSpellEffects = new Dictionary<SpellType, TileEffect>();
 
     [Header("Tile tweens")]
     [Range(0,1)] public float tileDeathDuration = 0.3f;
@@ -28,10 +29,12 @@ public class Sc_TileManager : MonoBehaviour
 
     private void Start()
     {
-        allEffects.Add(TileEffect_Red.type, new TileEffect_Red());
-        allEffects.Add(TileEffect_Blue.type, new TileEffect_Blue());
-        allEffects.Add(TileEffect_Green.type, new TileEffect_Green());
-        allEffects.Add(TileEffect_Yellow.type, new TileEffect_Yellow());
+        allNormalEffects.Add(TileEffect_Red.type, new TileEffect_Red(1));
+        allNormalEffects.Add(TileEffect_Blue.type, new TileEffect_Blue(1));
+        allNormalEffects.Add(TileEffect_Green.type, new TileEffect_Green(1));
+        allNormalEffects.Add(TileEffect_Yellow.type, new TileEffect_Yellow(2));
+
+        allSpellEffects.Add(TileEffect_SpellIce.type, new TileEffect_SpellIce(0));
 
         gameManager = FindObjectOfType<Sc_GameManager>();
         grid = new GameObject[levelArray.x, levelArray.y];
@@ -42,6 +45,7 @@ public class Sc_TileManager : MonoBehaviour
     public void StopGame(bool b)
     {
         canSwap = false;
+        Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 
     public IEnumerator GenerateGrid(bool replace, float delay)
@@ -83,6 +87,7 @@ public class Sc_TileManager : MonoBehaviour
         }
 
         canSwap = true;
+        Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 
     public Vector2Int GetTileCoordinates(GameObject obj)
@@ -112,7 +117,8 @@ public class Sc_TileManager : MonoBehaviour
     public void Swap(Sc_Tile firstTile, Sc_Tile secondTile)
     {
         canSwap = false;
-        gameManager.RemoveAction();
+        Sc_EventManager.instance.onUpdateStats.Invoke();
+        gameManager.ChangeAction(-1);
         Vector2Int objCoord = GetTileCoordinates(firstTile.gameObject);
         Vector2Int toSwapCoord = GetTileCoordinates(secondTile.gameObject);
 
@@ -222,14 +228,21 @@ public class Sc_TileManager : MonoBehaviour
         {
             thisType = tile.myType;
             yield return new WaitForSeconds(offset);
-            tile.Death();
+            tile.Death();            
             offset += 0.05f;
+
+            SpellType spellType = tile.currentEffect;
+            if (allSpellEffects.ContainsKey(spellType))
+            {
+                allSpellEffects[spellType].Effect(tiles);
+                Sc_EventManager.instance.onUpdateStats.Invoke();
+            }
+
         }
 
         for (int i = 2; i < tiles.Count; i++)
         {
-            allEffects[thisType].Effect(tiles);
-            print(thisType.ToString());
+            allNormalEffects[thisType].Effect(tiles);            
             Sc_EventManager.instance.onUpdateStats.Invoke();
         }
 
@@ -238,7 +251,7 @@ public class Sc_TileManager : MonoBehaviour
 
     public GameObject GetAdjacentCell(Vector2Int direction, Sc_Tile baseTile)
     {
-        if (direction == Vector2Int.zero || !canSwap)
+        if (direction == Vector2Int.zero || !canSwap || !gameManager.canPlay)
             return null;
 
         Vector2Int result = new Vector2Int(baseTile.coordinates.x + direction.x, baseTile.coordinates.y + direction.y);

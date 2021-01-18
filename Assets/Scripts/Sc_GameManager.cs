@@ -13,6 +13,9 @@ public class Sc_GameManager : MonoBehaviour
     [SerializeField] Text displayActions;
     [SerializeField] CanvasGroup fightText;
     [SerializeField] GameObject endScreen;
+    public bool canPlay = true;
+    Image screen;
+    Text txt;
 
     private void Awake()
     {
@@ -22,6 +25,8 @@ public class Sc_GameManager : MonoBehaviour
         displayActions.text = remainingActions + "";
         fightText.DOFade(0, 0);
 
+        screen = endScreen.GetComponentInChildren<Image>();
+        txt = endScreen.GetComponentInChildren<Text>();
         endScreen.GetComponentInChildren<Image>().DOFade(0, 0);
         endScreen.GetComponentInChildren<Text>().DOFade(0, 0);
     }
@@ -29,12 +34,47 @@ public class Sc_GameManager : MonoBehaviour
     private void Start()
     {
         Sc_EventManager.instance.onWin.AddListener(GameOver);
+        Sc_EventManager.instance.onSpellInvocation.AddListener(InvokeSpell);
+    }
+
+    void InvokeSpell(SpellType spellName)
+    {
+        StartCoroutine(SpellAnimation(spellName));
+    }
+
+    public IEnumerator SpellAnimation(SpellType spellName)
+    {
+        canPlay = false;
+        Sc_EventManager.instance.onUpdateStats.Invoke();
+        Sequence sequence = DOTween.Sequence();
+        switch (spellName)
+        {
+            case SpellType.Ice:
+                screen.color = Color.cyan;
+                break;
+            case SpellType.Fire:
+                screen.color = Color.red;
+                break;
+            case SpellType.Shield:
+                screen.color = Color.blue;
+                break;
+        }
+
+        screen.color = new Color(screen.color.r, screen.color.g, screen.color.b, 0);
+        txt.color = new Color(0, 0, 0, 0);
+        sequence.Append(screen.DOFade(0.5f, 0.3f));
+        sequence.Append(txt.DOFade(1, 0.2f).SetDelay(0.3f));
+        sequence.Play().SetAutoKill(false);
+        txt.text = spellName.ToString();
+        yield return new WaitForSeconds(sequence.Duration() * 2);
+        sequence.PlayBackwards();
+        yield return new WaitForSeconds(sequence.Duration());
+        canPlay = true;
+        Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 
     public void GameOver(bool win)
     {
-        Image screen = endScreen.GetComponentInChildren<Image>();
-        Text txt = endScreen.GetComponentInChildren<Text>();
         screen.DOFade(0.5f, 0.8f);
         txt.DOFade(1, 0.3f).SetDelay(0.3f);
 
@@ -44,9 +84,9 @@ public class Sc_GameManager : MonoBehaviour
             txt.text = "Game Over";
     }
 
-    public void RemoveAction()
+    public void ChangeAction(int amount)
     {
-        remainingActions--;
+        remainingActions += amount;
         if (remainingActions <= 0)
         {
             remainingActions = maxActions;
@@ -58,6 +98,8 @@ public class Sc_GameManager : MonoBehaviour
 
     public IEnumerator LaunchTurn()
     {
+        canPlay = false;
+        Sc_EventManager.instance.onUpdateStats.Invoke();
         Vector3 baseScale = fightText.transform.localScale;
         float delay = 2f;
         fightText.DOFade(1, 0.3f);
@@ -65,10 +107,10 @@ public class Sc_GameManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
 
         float wait = 3f;        
-        mainPlayer.StartAttack(currentEnemy);        
-        if (currentEnemy.GetLife.Value > 0)
+        mainPlayer.StartAttack(currentEnemy);
+        yield return new WaitForSeconds(wait);
+        if (!currentEnemy.isDead)
         {
-            yield return new WaitForSeconds(wait);
             currentEnemy.StartAttack(mainPlayer);
             yield return new WaitForSeconds(wait);
         }
@@ -76,5 +118,7 @@ public class Sc_GameManager : MonoBehaviour
         fightText.DOFade(0, delay - 0.3f);
         fightText.transform.DOScale(baseScale, 0).SetDelay(delay - 0.3f);
         yield return new WaitForSeconds(delay - 0.3f);
+        canPlay = true;
+        Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 }

@@ -10,10 +10,8 @@ class TileEffect_Blue : TileEffect
     protected override StatType stat => StatType.MP;
     public static TileType type => TileType.Mana;
 
-    public override void Effect(List<Sc_Tile> tiles)
+    public TileEffect_Blue(float value) : base(value)
     {
-        Sc_Player player = UnityEngine.Object.FindObjectOfType<Sc_Player>();
-        player.GetMana.Value += value;
-        base.Effect(tiles);
+        this.value = value;
     }
 }

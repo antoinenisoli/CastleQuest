@@ -10,10 +10,8 @@ class TileEffect_Green : TileEffect
     protected override StatType stat => StatType.Defense;
     public static TileType type => TileType.Defense;
 
-    public override void Effect(List<Sc_Tile> tiles)
+    public TileEffect_Green(float value) : base(value)
     {
-        Sc_Player player = UnityEngine.Object.FindObjectOfType<Sc_Player>();
-        player.GetDefense.Value += value + tiles[0].bonusValue;
-        base.Effect(tiles);
+        this.value = value;
     }
 }
