@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class Sc_CreatureUI : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class Sc_CreatureUI : MonoBehaviour
 
         public void UpdateDisplay(Sc_Creature creature)
         {
-            statValueText.text = creature.name + " " + creature.GetState(thisStat).Value + " / " + creature.GetState(thisStat).MaxValue;
+            statValueText.text = creature.GetState(thisStat).Value + "/" + creature.GetState(thisStat).MaxValue;
             if (statBar != null)
             {
                 statBar.maxValue = creature.GetState(thisStat).MaxValue;
@@ -25,14 +26,57 @@ public class Sc_CreatureUI : MonoBehaviour
     }
 
     [SerializeField] Sc_Creature myCreature;
-    [SerializeField] Text statName;
+    [SerializeField] Text creatureName;
+    [SerializeField] Image displayCreaturePortrait;
+    [SerializeField] Sprite creaturePortrait;
+
+    [Header("Grow Text")]
+    [SerializeField] float growStrength = 0.3f;
+    [SerializeField] float growDuration = 0.3f;
+
+    [Header("Stats")]
+    [SerializeField] Text attackValue;
+    [SerializeField] Text defenseValue;
     [SerializeField] StatInfo[] statsInfos = new StatInfo[2];
-    [SerializeField] Text attackValue, defenseValue;
+    Dictionary<StatType, StatInfo> myInfos = new Dictionary<StatType, StatInfo>();
 
     private void Start()
     {
         Sc_EventManager.instance.onUpdateStats.AddListener(SetInfo);
+        displayCreaturePortrait.sprite = creaturePortrait;
+        if (myCreature.GetComponent<Sc_Player>())
+            Sc_EventManager.instance.onGrowStat.AddListener(GrowStat);
+
         SetInfo();
+        foreach (var info in statsInfos)
+        {
+            myInfos.Add(info.thisStat, info);
+        }
+    }
+
+    public void GrowStat(StatType stat)
+    {
+        Transform statText = null;
+        if (myInfos.ContainsKey(stat))
+            statText = myInfos[stat].statValueText.transform;
+        else
+        {
+            switch (stat)
+            {
+                case StatType.Attack:
+                    statText = attackValue.transform;
+                    break;
+
+                case StatType.Defense:
+                    statText = defenseValue.transform;
+                    break;
+            }
+        }
+
+        Vector3 baseScale = statText.localScale;
+        statText.DOKill();
+        statText.DOScale(baseScale * growStrength, growDuration);
+        statText.DOScale(baseScale, growDuration/2).SetDelay(growDuration);
     }
 
     public void SetInfo()
@@ -42,7 +86,7 @@ public class Sc_CreatureUI : MonoBehaviour
             item.UpdateDisplay(myCreature);
         }
 
-        statName.text = myCreature.name;
+        creatureName.text = myCreature.name;
         attackValue.text = myCreature.GetAttack.Value + "";
         defenseValue.text = myCreature.GetDefense.Value + "";
     }

@@ -6,7 +6,12 @@ using UnityEngine.Events;
 public class Sc_EventManager : MonoBehaviour
 {
     public static Sc_EventManager instance;
-    public UnityEvent onUpdateStats;
+    public class BoolEvent : UnityEvent<bool> { };
+    public class StatEvent : UnityEvent<StatType> { };
+
+    public BoolEvent onWin = new BoolEvent();
+    public UnityEvent onUpdateStats = new UnityEvent();
+    public StatEvent onGrowStat = new StatEvent();
 
     private void Awake()
     {

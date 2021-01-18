@@ -7,12 +7,13 @@ using DG.Tweening;
 public class Sc_TileManager : MonoBehaviour
 {
     [HideInInspector] public Sc_GameManager gameManager;
-    [SerializeField] Sprite[] allSprites;
     [SerializeField] GameObject tilePrefab;
     [SerializeField] Vector2Int levelArray;
     [HideInInspector] public GameObject highlightedTile;
     public GameObject[,] grid = new GameObject[5, 10];
-    List<Sc_Tile> correctTiles = new List<Sc_Tile>();
+    float offset;
+    [SerializeField] bool canSwap = false;
+    Dictionary<TileType, TileEffect> allEffects = new Dictionary<TileType, TileEffect>();
 
     [Header("Tile tweens")]
     [Range(0,1)] public float tileDeathDuration = 0.3f;
@@ -27,15 +28,25 @@ public class Sc_TileManager : MonoBehaviour
 
     private void Start()
     {
+        allEffects.Add(TileEffect_Red.type, new TileEffect_Red());
+        allEffects.Add(TileEffect_Blue.type, new TileEffect_Blue());
+        allEffects.Add(TileEffect_Green.type, new TileEffect_Green());
+        allEffects.Add(TileEffect_Yellow.type, new TileEffect_Yellow());
+
         gameManager = FindObjectOfType<Sc_GameManager>();
         grid = new GameObject[levelArray.x, levelArray.y];
         StartCoroutine(GenerateGrid(false, 0));
+        Sc_EventManager.instance.onWin.AddListener(StopGame);
+    }
+
+    public void StopGame(bool b)
+    {
+        canSwap = false;
     }
 
     public IEnumerator GenerateGrid(bool replace, float delay)
     {
-        gameManager.canPlay = false;
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSeconds(delay + 1f);
         for (int i = 0; i < grid.GetLength(1); i++)
         {
             for (int j = 0; j < grid.GetLength(0); j++)
@@ -52,7 +63,7 @@ public class Sc_TileManager : MonoBehaviour
                 {
                     while (tile.IsSameOf(grid[j - 1, i].GetComponent<Sc_Tile>()))
                     {
-                        int random = Random.Range(0, allSprites.Length);
+                        int random = Random.Range(0, array.Length);
                         tile.myType = (TileType)array.GetValue(random);
                     }
                 }
@@ -61,19 +72,17 @@ public class Sc_TileManager : MonoBehaviour
                 {
                     while (tile.IsSameOf(grid[j, i - 1].GetComponent<Sc_Tile>()))
                     {
-                        int random = Random.Range(0, allSprites.Length);
+                        int random = Random.Range(0, array.Length);
                         tile.myType = (TileType)array.GetValue(random);
                     }
                 }
 
-                tile.Creation(allSprites[(int)tile.myType], (int)tile.myType);
+                tile.Creation((int)tile.myType);
                 tile.name = tile.ToString();
-                //StartCoroutine(CheckThisTile(tile, 0.5f));
             }
         }
 
-        yield return new WaitForSeconds(0.15f);
-        gameManager.canPlay = true;
+        canSwap = true;
     }
 
     public Vector2Int GetTileCoordinates(GameObject obj)
@@ -94,7 +103,7 @@ public class Sc_TileManager : MonoBehaviour
     {
         GameObject newTile = Instantiate(tilePrefab, newPos, Quaternion.identity, transform);
         System.Array array = System.Enum.GetValues(typeof(TileType));
-        int random = Random.Range(0, allSprites.Length);
+        int random = Random.Range(0, array.Length);
         Sc_Tile tile = newTile.GetComponent<Sc_Tile>();
         tile.myType = (TileType)array.GetValue(random);
         return newTile;
@@ -102,6 +111,7 @@ public class Sc_TileManager : MonoBehaviour
 
     public void Swap(Sc_Tile firstTile, Sc_Tile secondTile)
     {
+        canSwap = false;
         gameManager.RemoveAction();
         Vector2Int objCoord = GetTileCoordinates(firstTile.gameObject);
         Vector2Int toSwapCoord = GetTileCoordinates(secondTile.gameObject);
@@ -120,9 +130,8 @@ public class Sc_TileManager : MonoBehaviour
         secondTile.gameObject.name = secondTile.ToString();
         firstTile.gameObject.name = firstTile.ToString();
 
-        StartCoroutine(CheckThisTile(firstTile, swapDuration));
-        StartCoroutine(CheckThisTile(secondTile, swapDuration));
-        StartCoroutine(GenerateGrid(true, swapDuration * 2 + tileDeathDuration));
+        Sc_Tile[] array = new Sc_Tile[] { firstTile, secondTile };
+        StartCoroutine(CheckThisTile(array, swapDuration));
     }
 
     List<Sc_Tile> CheckLine(Sc_Tile startTile, Vector2Int direction)
@@ -194,34 +203,42 @@ public class Sc_TileManager : MonoBehaviour
         return tempValidTiles;
     }
 
-    IEnumerator CheckThisTile(Sc_Tile startTile, float delay)
+    IEnumerator CheckThisTile(Sc_Tile[] tilesToCheck, float delay)
     {
-        gameManager.canPlay = false;
         yield return new WaitForSeconds(delay);
-        correctTiles.AddRange(CheckLine(startTile, Vector2Int.left)); //horizontal
-        correctTiles.AddRange(CheckLine(startTile, Vector2Int.up)); //vertical
-
-        // diagonals
-        correctTiles.AddRange(CheckLine(startTile, new Vector2Int(1, 1)));
-        correctTiles.AddRange(CheckLine(startTile, new Vector2Int(-1, 1)));
-        correctTiles.AddRange(CheckLine(startTile, new Vector2Int(1, -1)));
-        correctTiles.AddRange(CheckLine(startTile, new Vector2Int(-1, -1)));
-        //
-
-        float offset = 0;
-        foreach (Sc_Tile tile in correctTiles)
+        foreach (var tile in tilesToCheck)
         {
-            offset += 0.15f;
-            tile.Death(offset);
+            StartCoroutine(ClearLine(CheckLine(tile, Vector2Int.left)));
+            StartCoroutine(ClearLine(CheckLine(tile, Vector2Int.up)));
         }
 
-        correctTiles.Clear();
-        gameManager.canPlay = true;
+        StartCoroutine(GenerateGrid(true, offset));
+    }
+
+    IEnumerator ClearLine(List<Sc_Tile> tiles)
+    {
+        TileType thisType = TileType.Attack;
+        foreach (var tile in tiles)
+        {
+            thisType = tile.myType;
+            yield return new WaitForSeconds(offset);
+            tile.Death();
+            offset += 0.05f;
+        }
+
+        for (int i = 2; i < tiles.Count; i++)
+        {
+            allEffects[thisType].Effect(tiles);
+            print(thisType.ToString());
+            Sc_EventManager.instance.onUpdateStats.Invoke();
+        }
+
+        offset = 0;
     }
 
     public GameObject GetAdjacentCell(Vector2Int direction, Sc_Tile baseTile)
     {
-        if (direction == Vector2Int.zero)
+        if (direction == Vector2Int.zero || !canSwap)
             return null;
 
         Vector2Int result = new Vector2Int(baseTile.coordinates.x + direction.x, baseTile.coordinates.y + direction.y);

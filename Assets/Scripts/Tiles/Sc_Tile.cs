@@ -22,10 +22,11 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
     public TileType myType;
     public Vector2Int coordinates;
     [SerializeField] TextMeshPro myText;
-    public int scoreValue = 100;
+    public int bonusValue = 0;
     [SerializeField] GameObject fx;
     [SerializeField] bool debug;
     [SerializeField] Material glowSprite;
+    [SerializeField] Sprite[] allSprites;
     Material baseMat;
 
     Vector3 mousePos;
@@ -41,14 +42,14 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
         baseMat = spriteRender.material;
     }
 
-    public void Creation(Sprite spr, int index)
+    public void Creation(int index)
     {
         Vector3 baseScale = transform.localScale;
         transform.localScale = Vector3.one * 0.01f;
         transform.DOScale(baseScale, tileManager.tileBirthDuration);
 
         System.Array array = System.Enum.GetValues(typeof(TileType));
-        spriteRender.sprite = spr;
+        spriteRender.sprite = allSprites[index];
         myType = (TileType)array.GetValue(index);
     }
 
@@ -61,9 +62,6 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if (!inDrag)
             inDrag = true;
-
-        if (!tileManager.gameManager.canPlay)
-            return;
 
         mouseNextPos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         Vector2Int direction = Vector2Int.zero;
@@ -87,9 +85,9 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
         tileManager.highlightedTile = null;
     }
 
-    public void Death(float offsetDelay)
+    public void Death()
     {
-        float delay = offsetDelay + tileManager.tileDeathDuration;
+        float delay = tileManager.tileDeathDuration;
         transform.DOScale(transform.localScale * 1.4f, delay);
         transform.DOScale(0.01f, delay / 2).SetDelay(delay / 2);
         Destroy(gameObject, delay);

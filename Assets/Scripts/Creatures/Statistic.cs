@@ -5,8 +5,8 @@ using UnityEngine;
 
 public enum StatType
 {
-    PV,
-    MANA,
+    HP,
+    MP,
     Attack,
     Defense,
 }
