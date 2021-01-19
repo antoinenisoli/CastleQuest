@@ -997,6 +997,58 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 229
       objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[0]
+      value: It's damn hot here... I must be in the land of these vile demons.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[1]
+      value: It's over ! The fire lord has already won ! Your king shall kneel to
+        us.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[2]
+      value: The Fire Demon ! Once i'll finished with you, it will be the sorcerer's
+        turn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[3]
+      value: Ah, metal pans like you are easy to melt !
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: victoryLines.Array.data[3]
+      value: I... just.. wanted.. a quiet life... aaaargh...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: victoryLines.Array.data[2]
+      value: A knight always triumphs. I will find the king's daughters.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: defeatLines.Array.data[1]
+      value: You will be a good steak for my dinner tonight
+      objectReference: {fileID: 0}
     - target: {fileID: 6011658448123492821, guid: d10908c0073ca2e48b49e57920ad38da,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1336,7 +1388,7 @@ PrefabInstance:
     - target: {fileID: 3724877121004001604, guid: ba2e214d84f8119429f50e187e9045b7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.21
+      value: 4.93
       objectReference: {fileID: 0}
     - target: {fileID: 3724877121004001604, guid: ba2e214d84f8119429f50e187e9045b7,
         type: 3}
@@ -1451,7 +1503,7 @@ PrefabInstance:
     - target: {fileID: 6106472453102065652, guid: b94c9286f1bc22a40849847f35547e82,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.36
+      value: 4.95
       objectReference: {fileID: 0}
     - target: {fileID: 6106472453102065653, guid: b94c9286f1bc22a40849847f35547e82,
         type: 3}

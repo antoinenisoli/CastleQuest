@@ -68,7 +68,7 @@ public abstract class Sc_Creature : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         float computeDamages = GetAttack.Value - target.GetDefense.Value;
         target.ModifyHealth(-computeDamages);
-        target.transform.DOShakePosition(0.1f, computeDamages / 15);
+        target.transform.DOShakePosition(0.1f, 0.8f);
         Sc_EventManager.instance.onUpdateStats.Invoke();
         yield return new WaitForSeconds(1);
         transform.DOMoveX(basePos.x, animSpeed);

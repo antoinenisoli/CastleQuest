@@ -27,5 +27,5 @@ MonoBehaviour:
     currentValue: 6
     maxValue: 50
   - myStat: 3
-    currentValue: 7
+    currentValue: 8
     maxValue: 50

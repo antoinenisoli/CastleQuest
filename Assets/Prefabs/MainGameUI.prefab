@@ -6152,15 +6152,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubble: {fileID: 5398758164408335483}
+  playerSpeak: 1
   positions:
   - {fileID: 5798325994994257827}
   - {fileID: 1264295917685873973}
-  dialogLines:
+  startLines:
   - You ! Where is the Black Sorcerer who kidnaped the king's daughters ?
   - Hahaha, you would never see them again, those cuties are scattered all over the
     country !!
   - You shall pay for that, no mercy for the fiend !
   - As the boss says, no survivor, no mercy !
+  victoryLines:
+  - You should try to fight next time.
+  - Aaaargh....
+  - The Sorcerer. Tell me where he is.
+  - In...the volcano... aaaargh....
+  defeatLines:
+  - Oooof...
+  - For the boss !!
 --- !u!1 &5398758163820580765
 GameObject:
   m_ObjectHideFlags: 0

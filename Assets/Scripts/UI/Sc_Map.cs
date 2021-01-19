@@ -26,7 +26,6 @@ public class Sc_Map : MonoBehaviour
     private void Start()
     {
         panelPosition = helpPanel.transform.position;
-        Sc_EventManager.instance.onWin.AddListener(EndGame);
         foreach (var item in paths)
         {
             myPaths.Add(item.pathName, item);
@@ -41,7 +40,7 @@ public class Sc_Map : MonoBehaviour
             helpPanel.transform.DOMove(panelPosition, 0.5f);
     }
 
-    void EndGame(bool b)
+    public void EndGame(bool b)
     {
         StartCoroutine(ShowMap(b));
     }
@@ -53,12 +52,12 @@ public class Sc_Map : MonoBehaviour
 
     public IEnumerator ShowMap(bool victory)
     {
-        float delay = 3.5f;
+        float delay = 1.5f;
         yield return new WaitForSeconds(delay);
         if (victory)
         {
             RectTransform myTransform = GetComponent<RectTransform>();
-            myTransform.DOLocalMoveY(0, 2f);
+            myTransform.DOLocalMoveY(0, 1.5f);
         }
         else
         {

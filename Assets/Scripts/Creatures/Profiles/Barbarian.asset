@@ -24,8 +24,8 @@ MonoBehaviour:
     currentValue: 0
     maxValue: 0
   - myStat: 2
-    currentValue: 2
+    currentValue: 4
     maxValue: 50
   - myStat: 3
-    currentValue: 2
+    currentValue: 4
     maxValue: 50

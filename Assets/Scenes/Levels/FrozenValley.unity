@@ -733,7 +733,7 @@ PrefabInstance:
     - target: {fileID: 3724877121004001604, guid: ba2e214d84f8119429f50e187e9045b7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.36
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 3724877121004001604, guid: ba2e214d84f8119429f50e187e9045b7,
         type: 3}
@@ -950,6 +950,46 @@ PrefabInstance:
       propertyPath: myCreature
       value: 
       objectReference: {fileID: 477413834}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[0]
+      value: So, i guess i'm in the eskimo country now...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[1]
+      value: Hmmmm... hmm ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[2]
+      value: You really want to fight ? I just want to go through the volcano and...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: startLines.Array.data[3]
+      value: Hmmmmm !! Hm !!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: victoryLines.Array.data[1]
+      value: hmmmmm......
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: victoryLines.Array.data[2]
+      value: You can try to take that anorak off, right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: victoryLines.Array.data[3]
+      value: Hmm... hmm hmmmm...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5398758163783537557, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: defeatLines.Array.data[1]
+      value: Hmm !!!
+      objectReference: {fileID: 0}
     - target: {fileID: 6320856210603685007, guid: d10908c0073ca2e48b49e57920ad38da,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -987,7 +1027,7 @@ PrefabInstance:
     - target: {fileID: 6106472453102065652, guid: b94c9286f1bc22a40849847f35547e82,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.36
+      value: 4.98
       objectReference: {fileID: 0}
     - target: {fileID: 6106472453102065652, guid: b94c9286f1bc22a40849847f35547e82,
         type: 3}

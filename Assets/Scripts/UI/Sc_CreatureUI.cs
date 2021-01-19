@@ -73,9 +73,15 @@ public class Sc_CreatureUI : MonoBehaviour
         }
 
         Vector3 baseScale = statText.localScale;
+        if (statText.transform.localScale.x > baseScale.x)
+        {
+            statText.transform.localScale = baseScale;
+        }
+
+        DOTween.Kill(statText);
         statText.DOComplete();
         statText.DOScale(baseScale * growStrength, growDuration);
-        statText.DOScale(baseScale, growDuration/2).SetDelay(growDuration);
+        statText.DOScale(baseScale, growDuration / 2).SetDelay(growDuration);
     }
 
     public void SetInfo()

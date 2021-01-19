@@ -8,20 +8,24 @@ using DG.Tweening;
 public class Sc_Dialog : MonoBehaviour
 {
     Sc_GameManager gameManager;
+    Sc_Map map;
     [SerializeField] GameObject bubble;
+    public bool playerSpeak = true;
     [SerializeField] Transform[] positions;
     [TextArea] [SerializeField] string[] startLines;
     [TextArea] [SerializeField] string[] victoryLines;
     [TextArea] [SerializeField] string[] defeatLines;
     string[] linesToPlay;
+
     int count;
     Text mainText;
     CanvasGroup group;
     bool finished;
-    bool playerSpeak = true;
+    bool defeat;
 
     private void Awake()
     {
+        map = FindObjectOfType<Sc_Map>();
         gameManager = FindObjectOfType<Sc_GameManager>();
         mainText = GetComponentInChildren<Text>();
         group = GetComponent<CanvasGroup>();
@@ -41,15 +45,17 @@ public class Sc_Dialog : MonoBehaviour
 
     void RestartDialog(bool defeat)
     {
-        playerSpeak = defeat;
+        this.defeat = defeat;
+        playerSpeak = true;
         finished = false;
         linesToPlay = defeat ? victoryLines : defeatLines;
+        group.DOFade(1, 0.3f).SetDelay(0.3f);
         StartCoroutine(NewDialog(linesToPlay));
     }
 
     IEnumerator NewDialog(string[] lines)
     {
-        if (count < startLines.Length)
+        if (count < lines.Length)
         {
             Image bubbleImage = bubble.GetComponent<Image>();
             bubbleImage.DOComplete();
@@ -74,6 +80,9 @@ public class Sc_Dialog : MonoBehaviour
             finished = true;
             gameManager.canPlay = true;
             count = 0;
+
+            if (linesToPlay != null)
+                map.EndGame(defeat);
         }
     }
 
@@ -84,7 +93,7 @@ public class Sc_Dialog : MonoBehaviour
             gameManager.canPlay = false;
             if (Input.anyKeyDown)
             {
-                if (linesToPlay.Length > 0)
+                if (linesToPlay != null && linesToPlay.Length > 0)
                     StartCoroutine(NewDialog(linesToPlay));
                 else if (startLines.Length > 0)
                     StartCoroutine(NewDialog(startLines));
