@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: FireDemon
   m_EditorClassIdentifier: 
   name: Fire Demon
-  sprite: {fileID: 4517617576486601604, guid: dc5f71922b73edb4ebc58ac336bffd95, type: 3}
+  visualObject: {fileID: 4517617576486601604, guid: dc5f71922b73edb4ebc58ac336bffd95,
+    type: 3}
   portrait: {fileID: 21300000, guid: fefde5e0302dc6444b611ccf8f1d6e3e, type: 3}
   myStats:
   - myStat: 0

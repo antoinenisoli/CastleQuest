@@ -940,6 +940,11 @@ PrefabInstance:
       propertyPath: myCreature
       value: 
       objectReference: {fileID: 1598819345}
+    - target: {fileID: 3797292916314766273, guid: d10908c0073ca2e48b49e57920ad38da,
+        type: 3}
+      propertyPath: paths.Array.data[1].pathName
+      value: BattleGround
+      objectReference: {fileID: 0}
     - target: {fileID: 3797292916809402641, guid: d10908c0073ca2e48b49e57920ad38da,
         type: 3}
       propertyPath: myCreature

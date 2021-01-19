@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Barbarian
   m_EditorClassIdentifier: 
   name: Barbarian
-  sprite: {fileID: 4517617576486601604, guid: 995bcb386a9c21f4ab6c98d0269cbceb, type: 3}
+  visualObject: {fileID: 4517617576486601604, guid: 995bcb386a9c21f4ab6c98d0269cbceb,
+    type: 3}
   portrait: {fileID: 21300000, guid: e2b84ad0b5176844da0dad37ddc8487f, type: 3}
   myStats:
   - myStat: 0

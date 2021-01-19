@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Knight
   m_EditorClassIdentifier: 
   name: Knight
-  sprite: {fileID: 4517617576486601604, guid: fceba4d7964b764419d2497a10619917, type: 3}
-  portrait: {fileID: 21300000, guid: 4ae3823419f32064db8a6b0e6c6911e0, type: 3}
+  visualObject: {fileID: 4517617576486601604, guid: efa2eb5723163bc47bf4c0729c2d0847,
+    type: 3}
+  portrait: {fileID: 21300000, guid: 754c2886df4d91f4ca9564f40ec6c237, type: 3}
   myStats:
   - myStat: 0
     currentValue: 0

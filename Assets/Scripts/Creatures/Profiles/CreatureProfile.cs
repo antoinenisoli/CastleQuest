@@ -6,7 +6,7 @@ using UnityEngine;
 public class CreatureProfile : ScriptableObject
 {
     public new string name = "Creature";
-    public GameObject sprite;
+    public GameObject visualObject;
     public Sprite portrait;
     public Statistic[] myStats = new Statistic[4];
 }

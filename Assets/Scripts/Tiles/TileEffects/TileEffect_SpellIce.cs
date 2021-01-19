@@ -18,6 +18,6 @@ public class TileEffect_SpellIce : TileEffect_Spell
     public override void Effect(List<Sc_Tile> tiles)
     {
         player = UnityEngine.Object.FindObjectOfType<Sc_Player>();
-        gameManager.ChangeAction(3);
+        gameManager.ChangeAction((int)value);
     }
 }

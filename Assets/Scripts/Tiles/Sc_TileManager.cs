@@ -34,11 +34,11 @@ public class Sc_TileManager : MonoBehaviour
         allNormalEffects.Add(TileEffect_Green.type, new TileEffect_Green(1));
         allNormalEffects.Add(TileEffect_Yellow.type, new TileEffect_Yellow(2));
 
-        allSpellEffects.Add(TileEffect_SpellIce.type, new TileEffect_SpellIce(0));
+        allSpellEffects.Add(TileEffect_SpellIce.type, new TileEffect_SpellIce(1));
 
         gameManager = FindObjectOfType<Sc_GameManager>();
         grid = new GameObject[levelArray.x, levelArray.y];
-        StartCoroutine(GenerateGrid(false, 0));
+        StartCoroutine(GenerateGrid(false));
         Sc_EventManager.instance.onWin.AddListener(StopGame);
     }
 
@@ -48,9 +48,9 @@ public class Sc_TileManager : MonoBehaviour
         Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 
-    public IEnumerator GenerateGrid(bool replace, float delay)
+    public IEnumerator GenerateGrid(bool replace)
     {
-        yield return new WaitForSeconds(delay + 1f);
+        yield return new WaitForSeconds(1f);
         for (int i = 0; i < grid.GetLength(1); i++)
         {
             for (int j = 0; j < grid.GetLength(0); j++)
@@ -83,9 +83,10 @@ public class Sc_TileManager : MonoBehaviour
 
                 tile.Creation((int)tile.myType);
                 tile.name = tile.ToString();
+                StartCoroutine(CheckThisTile(tile, 0.5f));
             }
         }
-
+        
         canSwap = true;
         Sc_EventManager.instance.onUpdateStats.Invoke();
     }
@@ -136,8 +137,8 @@ public class Sc_TileManager : MonoBehaviour
         secondTile.gameObject.name = secondTile.ToString();
         firstTile.gameObject.name = firstTile.ToString();
 
-        Sc_Tile[] array = new Sc_Tile[] { firstTile, secondTile };
-        StartCoroutine(CheckThisTile(array, swapDuration));
+        StartCoroutine(CheckThisTile(firstTile, swapDuration));
+        StartCoroutine(CheckThisTile(secondTile, swapDuration));
     }
 
     List<Sc_Tile> CheckLine(Sc_Tile startTile, Vector2Int direction)
@@ -209,16 +210,11 @@ public class Sc_TileManager : MonoBehaviour
         return tempValidTiles;
     }
 
-    IEnumerator CheckThisTile(Sc_Tile[] tilesToCheck, float delay)
+    IEnumerator CheckThisTile(Sc_Tile tileToCheck, float delay)
     {
         yield return new WaitForSeconds(delay);
-        foreach (var tile in tilesToCheck)
-        {
-            StartCoroutine(ClearLine(CheckLine(tile, Vector2Int.left)));
-            StartCoroutine(ClearLine(CheckLine(tile, Vector2Int.up)));
-        }
-
-        StartCoroutine(GenerateGrid(true, offset));
+        StartCoroutine(ClearLine(CheckLine(tileToCheck, Vector2Int.left)));
+        StartCoroutine(ClearLine(CheckLine(tileToCheck, Vector2Int.up)));
     }
 
     IEnumerator ClearLine(List<Sc_Tile> tiles)
@@ -229,7 +225,6 @@ public class Sc_TileManager : MonoBehaviour
             thisType = tile.myType;
             yield return new WaitForSeconds(offset);
             tile.Death();            
-            offset += 0.05f;
 
             SpellType spellType = tile.currentEffect;
             if (allSpellEffects.ContainsKey(spellType))
@@ -237,7 +232,6 @@ public class Sc_TileManager : MonoBehaviour
                 allSpellEffects[spellType].Effect(tiles);
                 Sc_EventManager.instance.onUpdateStats.Invoke();
             }
-
         }
 
         for (int i = 2; i < tiles.Count; i++)
@@ -246,7 +240,7 @@ public class Sc_TileManager : MonoBehaviour
             Sc_EventManager.instance.onUpdateStats.Invoke();
         }
 
-        offset = 0;
+        StartCoroutine(GenerateGrid(true));
     }
 
     public GameObject GetAdjacentCell(Vector2Int direction, Sc_Tile baseTile)

@@ -26,7 +26,7 @@ public abstract class Sc_Creature : MonoBehaviour
 
     private void Awake()
     {
-        GameObject newSprite = Instantiate(profile.sprite, transform.position, transform.rotation, transform);
+        GameObject newSprite = Instantiate(profile.visualObject, transform.position, transform.rotation, transform);
         anim = newSprite.GetComponent<Animator>();
         basePos = transform.position;
 
@@ -43,7 +43,12 @@ public abstract class Sc_Creature : MonoBehaviour
         }
 
         GetLife.Initialise();
-        GetMana.Initialise();
+    }
+
+    public void ResetStats()
+    {
+        GetAttack.Value = profile.myStats[(int)GetAttack.myStat].Value;
+        GetDefense.Value = profile.myStats[(int)GetDefense.myStat].Value;
     }
 
     public Statistic GetState(StatType statName)
@@ -63,7 +68,7 @@ public abstract class Sc_Creature : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         float computeDamages = GetAttack.Value - target.GetDefense.Value;
         target.ModifyHealth(-computeDamages);
-        target.transform.DOShakePosition(0.1f, computeDamages / 30);
+        target.transform.DOShakePosition(0.1f, computeDamages / 15);
         Sc_EventManager.instance.onUpdateStats.Invoke();
         yield return new WaitForSeconds(1);
         transform.DOMoveX(basePos.x, animSpeed);
@@ -74,13 +79,11 @@ public abstract class Sc_Creature : MonoBehaviour
         GetLife.ModifyValue(amount);
         if (GetLife.Value <= 0)
             Death();
-
-        anim.SetBool("isDead", isDead);
     }
 
     public virtual void Death()
     {
         isDead = true;
-        print(gameObject + " is dead");
+        anim.SetBool("isDead", isDead);
     }
 }

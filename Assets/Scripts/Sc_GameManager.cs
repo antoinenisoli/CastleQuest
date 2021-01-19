@@ -86,17 +86,19 @@ public class Sc_GameManager : MonoBehaviour
 
     public void ChangeAction(int amount)
     {
-        remainingActions += amount;
+        if (canPlay)
+            remainingActions += amount;
+
         if (remainingActions <= 0)
         {
             remainingActions = maxActions;
-            StartCoroutine(LaunchTurn());
+            StartCoroutine(LaunchTurn(mainPlayer, currentEnemy));
         }
 
         displayActions.text = remainingActions + "";
     }
 
-    public IEnumerator LaunchTurn()
+    public IEnumerator LaunchTurn(Sc_Creature firstOpponent, Sc_Creature secondOpponent)
     {
         canPlay = false;
         Sc_EventManager.instance.onUpdateStats.Invoke();
@@ -107,11 +109,11 @@ public class Sc_GameManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
 
         float wait = 3f;        
-        mainPlayer.StartAttack(currentEnemy);
+        firstOpponent.StartAttack(secondOpponent);
         yield return new WaitForSeconds(wait);
-        if (!currentEnemy.isDead)
+        if (!secondOpponent.isDead)
         {
-            currentEnemy.StartAttack(mainPlayer);
+            secondOpponent.StartAttack(firstOpponent);
             yield return new WaitForSeconds(wait);
         }
 
@@ -119,6 +121,8 @@ public class Sc_GameManager : MonoBehaviour
         fightText.transform.DOScale(baseScale, 0).SetDelay(delay - 0.3f);
         yield return new WaitForSeconds(delay - 0.3f);
         canPlay = true;
+        firstOpponent.ResetStats();
+        secondOpponent.ResetStats();
         Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 }
