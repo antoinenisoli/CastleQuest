@@ -1,16 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class TileEffect_Spell : TileEffect
+public abstract class TileEffect_Spell
 {
-    protected override StatType stat => base.stat;
+    protected StatType stat;
     protected Sc_GameManager gameManager;
+    protected Sc_Player player;
+    [SerializeField] protected int value;
 
-    public TileEffect_Spell(float value) : base(value)
-    {
-        this.value = value;
-        player = UnityEngine.Object.FindObjectOfType<Sc_Player>();
-        gameManager = UnityEngine.Object.FindObjectOfType<Sc_GameManager>();
-    }
+    public abstract void Effect(List<Sc_Tile> tiles);
 }

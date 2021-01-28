@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6feb3fc246c8e33448bb751eb390d119, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxActions: 8
+  maxActions: 10
   displayActions: {fileID: 0}
   fightText: {fileID: 0}
   endScreen: {fileID: 0}

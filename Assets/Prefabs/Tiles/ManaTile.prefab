@@ -201,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 3208730289476901806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.54366, y: 0.54366, z: 0.54366}
   m_Children: []
   m_Father: {fileID: 3208730290282233532}
   m_RootOrder: 0
@@ -244,8 +244,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
-  m_Sprite: {fileID: 523927548248279542, guid: 89bab1159006fa944ab967729bf91e50, type: 3}
+  m_SortingOrder: -150
+  m_Sprite: {fileID: 21300000, guid: e5eea3ee4abbde147b5e68a813b13779, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -265,10 +265,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3208730290282233532}
+  - component: {fileID: 9135177324145469115}
   - component: {fileID: 8425827661857706790}
   - component: {fileID: -2327294639814742479}
   m_Layer: 0
-  m_Name: Tile
+  m_Name: ManaTile
   m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,6 +292,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9135177324145469115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3208730290282233533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e474fd2e5233f614b89719773948f9be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 2
 --- !u!114 &8425827661857706790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,11 +317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ace0a9adc9bed5c428b29780a401e7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myType: 0
   coordinates: {x: 0, y: 0}
-  debugText: {fileID: 0}
-  debug: 0
-  currentEffect: 0
+  myTileEffect: {fileID: 0}
+  currentSpell: 0
   spellSpriteRenderer: {fileID: 3691504099511345599}
   spellSprites:
   - {fileID: 21300000, guid: 76222c631a4825b40bde9d9f79a215d9, type: 3}
@@ -319,11 +331,6 @@ MonoBehaviour:
   fx: {fileID: 5477192746909302544, guid: 4a83ce5c3f8fc134bae458cc72b4beb8, type: 3}
   highlight: 0
   glowSprite: {fileID: 2100000, guid: e131d9591a5b736459270c39fea3bbc2, type: 2}
-  allSprites:
-  - {fileID: 523927548248279542, guid: 89bab1159006fa944ab967729bf91e50, type: 3}
-  - {fileID: 1722173677274936927, guid: b64b4d774753f9b4f833f7dbc142ac7e, type: 3}
-  - {fileID: -3099624325959323974, guid: b87a9b3905307c54eb4a01222240dc4e, type: 3}
-  - {fileID: 3686076404613765544, guid: 782792722e426e24fb5e089ffef17e6c, type: 3}
 --- !u!61 &-2327294639814742479
 BoxCollider2D:
   m_ObjectHideFlags: 0

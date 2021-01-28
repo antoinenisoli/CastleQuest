@@ -48,7 +48,14 @@ MonoBehaviour:
     type: 3}
   levelArray: {x: 6, y: 6}
   highlightedTile: {fileID: 0}
+  allTiles:
+  - {fileID: 3208730290282233533, guid: 80b006bdc4f415c449a02a343b438339, type: 3}
+  - {fileID: 3208730290282233533, guid: 7e6e80d2d6d867443ad7ec0da46c8139, type: 3}
+  - {fileID: 3208730290282233533, guid: 4051bae57a758a64f8864717a3f8ef63, type: 3}
+  - {fileID: 3208730290282233533, guid: 8c9defe1911cb17498acc3f76875090a, type: 3}
   canSwap: 1
+  iceSpell:
+    value: 0
   tileDeathDuration: 0.3
   tileBirthDuration: 0.5
   swapDuration: 0.2

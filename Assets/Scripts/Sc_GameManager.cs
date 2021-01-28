@@ -61,11 +61,9 @@ public class Sc_GameManager : MonoBehaviour
         }
 
         screen.color = new Color(screen.color.r, screen.color.g, screen.color.b, 0);
-        txt.color = new Color(0, 0, 0, 0);
-        sequence.Append(screen.DOFade(0.5f, 0.3f));
-        sequence.Append(txt.DOFade(1, 0.2f).SetDelay(0.3f));
-        sequence.Play().SetAutoKill(false);
         txt.text = spellName.ToString();
+        sequence.Append(screen.DOFade(0.4f, 0.15f));
+        sequence.Play().SetAutoKill(false);
         yield return new WaitForSeconds(sequence.Duration() * 2);
         sequence.PlayBackwards();
         yield return new WaitForSeconds(sequence.Duration());
@@ -75,13 +73,14 @@ public class Sc_GameManager : MonoBehaviour
 
     public void GameOver(bool win)
     {
+        screen.color = new Color(0, 0, 0, 0);
         screen.DOFade(0.5f, 0.8f);
         txt.DOFade(1, 0.3f).SetDelay(0.3f);
 
         if (win)
-            txt.text = "Victory !!";
+            txt.text = "Victory !";
         else
-            txt.text = "Game Over";
+            txt.text = "Game Over...";
     }
 
     public void ChangeAction(int amount)
@@ -98,7 +97,7 @@ public class Sc_GameManager : MonoBehaviour
         displayActions.text = remainingActions + "";
     }
 
-    public IEnumerator LaunchTurn(Sc_Creature firstOpponent, Sc_Creature secondOpponent)
+    public IEnumerator LaunchTurn(Sc_Player firstOpponent, Sc_Enemy secondOpponent)
     {
         canPlay = false;
         Sc_EventManager.instance.onUpdateStats.Invoke();
@@ -122,7 +121,6 @@ public class Sc_GameManager : MonoBehaviour
         yield return new WaitForSeconds(delay - 0.3f);
         canPlay = true;
         firstOpponent.ResetStats();
-        secondOpponent.ResetStats();
         Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 }

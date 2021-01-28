@@ -34,6 +34,7 @@ public abstract class Spell : MonoBehaviour
     {
         costText.text = manaCost + "";
         Sc_EventManager.instance.onUpdateStats.AddListener(UpdateUI);
+        UpdateUI();
     }
 
     public virtual void Effect()
@@ -43,7 +44,7 @@ public abstract class Spell : MonoBehaviour
         Sc_EventManager.instance.onUpdateStats.Invoke();
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
         myButton.interactable = (player.GetMana.Value - manaCost) >= 0 && gameManager.canPlay && tileManager.canSwap;
     }

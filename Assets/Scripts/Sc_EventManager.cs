@@ -12,6 +12,7 @@ public class Sc_EventManager : MonoBehaviour
 
     public BoolEvent onWin = new BoolEvent();
     public UnityEvent onUpdateStats = new UnityEvent();
+    public UnityEvent onGameStart = new UnityEvent();
     public StatEvent onGrowStat = new StatEvent();
     public SpellEvent onSpellInvocation = new SpellEvent();
 

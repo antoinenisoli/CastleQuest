@@ -8,8 +8,8 @@ public class SpellPercent : Spell
     [SerializeField] int bonusValue = 2;
     [Range(0, 100)] [SerializeField] protected int percentageValue = 50;
     protected List<Sc_Tile> selectedTiles = new List<Sc_Tile>();
-    [SerializeField] protected TileType typeToReplace;
-    [SerializeField] protected TileType newType;
+    [SerializeField] protected StatType typeToReplace;
+    [SerializeField] protected StatType newType;
 
     public override void Effect()
     {
@@ -17,7 +17,7 @@ public class SpellPercent : Spell
         List<Sc_Tile> allTiles = new List<Sc_Tile>();
         foreach (var item in tileManager.grid)
         {
-            if (item.GetComponent<Sc_Tile>().myType == typeToReplace)
+            if (item.GetComponent<Sc_Tile>().myTileEffect.stat == typeToReplace)
                 allTiles.Add(item.GetComponent<Sc_Tile>());
         }
 
@@ -30,7 +30,7 @@ public class SpellPercent : Spell
 
         foreach (var item in selectedTiles)
         {
-            item.Creation((int)newType);
+            item.Creation();
             item.SetBonus(bonusValue);
         }
     }

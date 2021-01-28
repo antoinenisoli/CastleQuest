@@ -32,7 +32,7 @@ public class SpellIce : Spell
 
         foreach (var item in selectedTiles)
         {
-            item.Creation((int)item.myType);
+            item.Creation();
             item.SetEffect(spellType);
         }
     }

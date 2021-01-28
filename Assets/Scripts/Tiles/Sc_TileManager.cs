@@ -4,17 +4,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 
+public class Tile
+{
+    public GameObject prefab;
+    public int probabilityRate = 20;
+}
+
 public class Sc_TileManager : MonoBehaviour
 {
+    [Header("Spawn Tiles")]
     [HideInInspector] public Sc_GameManager gameManager;
-    [SerializeField] GameObject tilePrefab;
     [SerializeField] Vector2Int levelArray;
     [HideInInspector] public GameObject highlightedTile;
+    Tile[] tiles;
+    [SerializeField] GameObject[] allTiles = new GameObject[4];
     public GameObject[,] grid = new GameObject[5, 10];
-    float offset;
     public bool canSwap = false;
-    Dictionary<TileType, TileEffect> allNormalEffects = new Dictionary<TileType, TileEffect>();
-    Dictionary<SpellType, TileEffect> allSpellEffects = new Dictionary<SpellType, TileEffect>();
+    
+    [Header("Spells")]
+    [SerializeField] TileEffect_SpellIce iceSpell;
+    Dictionary<SpellType, TileEffect_Spell> allSpellEffects = new Dictionary<SpellType, TileEffect_Spell>();
 
     [Header("Tile tweens")]
     [Range(0,1)] public float tileDeathDuration = 0.3f;
@@ -29,23 +38,26 @@ public class Sc_TileManager : MonoBehaviour
 
     private void Start()
     {
-        allNormalEffects.Add(TileEffect_Red.type, new TileEffect_Red(1));
-        allNormalEffects.Add(TileEffect_Blue.type, new TileEffect_Blue(1));
-        allNormalEffects.Add(TileEffect_Green.type, new TileEffect_Green(1));
-        allNormalEffects.Add(TileEffect_Yellow.type, new TileEffect_Yellow(2));
-
-        allSpellEffects.Add(TileEffect_SpellIce.type, new TileEffect_SpellIce(1));
-
+        allSpellEffects.Add(TileEffect_SpellIce.type, iceSpell);
         gameManager = FindObjectOfType<Sc_GameManager>();
         grid = new GameObject[levelArray.x, levelArray.y];
-        StartCoroutine(GenerateGrid(false));
+        Sc_EventManager.instance.onGameStart.AddListener(NewGame);
         Sc_EventManager.instance.onWin.AddListener(StopGame);
+    }
+
+    void NewGame()
+    {
+        StartCoroutine(GenerateGrid(false));
     }
 
     public void StopGame(bool b)
     {
         canSwap = false;
         Sc_EventManager.instance.onUpdateStats.Invoke();
+        foreach (var item in grid)
+        {
+            item.GetComponent<Sc_Tile>().Death();
+        }
     }
 
     public IEnumerator GenerateGrid(bool replace)
@@ -58,35 +70,47 @@ public class Sc_TileManager : MonoBehaviour
                 if (replace && grid[j, i] != null)
                     continue;
 
-                grid[j, i] = CreateTile(transform.position + new Vector3(j, -i, 0));
-                Sc_Tile tile = grid[j, i].GetComponent<Sc_Tile>();
-                tile.coordinates = new Vector2Int(j, i);                
-                System.Array array = System.Enum.GetValues(typeof(TileType));
-
+                grid[j, i] = CreateTile(j, i);
                 if (j - 1 >= 0)
                 {
-                    while (tile.IsSameOf(grid[j - 1, i].GetComponent<Sc_Tile>()))
+                    while (true)
                     {
-                        int random = Random.Range(0, array.Length);
-                        tile.myType = (TileType)array.GetValue(random);
+                        Sc_Tile adjacentTile = grid[j - 1, i].GetComponent<Sc_Tile>();
+                        Sc_Tile currentTile = grid[j, i].GetComponent<Sc_Tile>();
+
+                        if (currentTile.IsSameOf(adjacentTile))
+                        {
+                            Destroy(grid[j, i]);
+                            grid[j, i] = CreateTile(j, i);
+                        }
+                        else
+                            break;
                     }
                 }
 
                 if (i - 1 >= 0)
                 {
-                    while (tile.IsSameOf(grid[j, i - 1].GetComponent<Sc_Tile>()))
+                    while (true)
                     {
-                        int random = Random.Range(0, array.Length);
-                        tile.myType = (TileType)array.GetValue(random);
+                        Sc_Tile adjacentTile = grid[j, i - 1].GetComponent<Sc_Tile>();
+                        Sc_Tile currentTile = grid[j, i].GetComponent<Sc_Tile>();
+
+                        if (currentTile.IsSameOf(adjacentTile))
+                        {
+                            Destroy(grid[j, i]);
+                            grid[j, i] = CreateTile(j, i);
+                        }
+                        else
+                            break;
                     }
                 }
 
-                tile.Creation((int)tile.myType);
-                tile.name = tile.ToString();
+                Sc_Tile tile = grid[j, i].GetComponent<Sc_Tile>();
+                tile.Creation();
                 StartCoroutine(CheckThisTile(tile, 0.5f));
             }
         }
-        
+
         canSwap = true;
         Sc_EventManager.instance.onUpdateStats.Invoke();
     }
@@ -105,13 +129,13 @@ public class Sc_TileManager : MonoBehaviour
         return Vector2Int.zero;
     }
 
-    public GameObject CreateTile(Vector3 newPos)
+    public GameObject CreateTile(int j, int i)
     {
-        GameObject newTile = Instantiate(tilePrefab, newPos, Quaternion.identity, transform);
-        System.Array array = System.Enum.GetValues(typeof(TileType));
-        int random = Random.Range(0, array.Length);
+        int random = Random.Range(0, allTiles.Length);
+        GameObject newTile = Instantiate(allTiles[random], transform.position + new Vector3(j, -i, 0), Quaternion.identity, transform);
         Sc_Tile tile = newTile.GetComponent<Sc_Tile>();
-        tile.myType = (TileType)array.GetValue(random);
+        tile.coordinates = new Vector2Int(j, i);
+        tile.name = tile.ToString();
         return newTile;
     }
 
@@ -144,7 +168,6 @@ public class Sc_TileManager : MonoBehaviour
     List<Sc_Tile> CheckLine(Sc_Tile startTile, Vector2Int direction)
     {
         Vector2Int lastCoord = new Vector2Int();
-        TileType tileType = startTile.myType;
         bool outB = false;
         List<Sc_Tile> tempValidTiles = new List<Sc_Tile>();
         for (int i = 0; i < grid.GetLength(0); i++)
@@ -156,7 +179,7 @@ public class Sc_TileManager : MonoBehaviour
                 if (inBound && grid[computeCoordinates.x, computeCoordinates.y] != null)
                 {
                     Sc_Tile tile = grid[computeCoordinates.x, computeCoordinates.y].GetComponent<Sc_Tile>();
-                    if (tile.myType.Equals(tileType))
+                    if (tile.IsSameOf(startTile))
                     {
                         lastCoord = computeCoordinates;
                     }
@@ -184,7 +207,7 @@ public class Sc_TileManager : MonoBehaviour
                 if (inBound && grid[computeCoordinates.x, computeCoordinates.y] != null)
                 {
                     Sc_Tile tile = grid[computeCoordinates.x, computeCoordinates.y].GetComponent<Sc_Tile>();
-                    if (tile.myType.Equals(tileType))
+                    if (tile.IsSameOf(startTile))
                     {
                         if (!tempValidTiles.Contains(tile))
                             tempValidTiles.Add(tile);
@@ -213,20 +236,17 @@ public class Sc_TileManager : MonoBehaviour
     IEnumerator CheckThisTile(Sc_Tile tileToCheck, float delay)
     {
         yield return new WaitForSeconds(delay);
-        StartCoroutine(ClearLine(CheckLine(tileToCheck, Vector2Int.left)));
-        StartCoroutine(ClearLine(CheckLine(tileToCheck, Vector2Int.up)));
+        ClearLine(CheckLine(tileToCheck, Vector2Int.left));
+        ClearLine(CheckLine(tileToCheck, Vector2Int.up));
     }
 
-    IEnumerator ClearLine(List<Sc_Tile> tiles)
+    void ClearLine(List<Sc_Tile> tiles)
     {
-        TileType thisType = TileType.Attack;
         foreach (var tile in tiles)
         {
-            thisType = tile.myType;
-            yield return new WaitForSeconds(offset);
             tile.Death();            
+            SpellType spellType = tile.currentSpell;
 
-            SpellType spellType = tile.currentEffect;
             if (allSpellEffects.ContainsKey(spellType))
             {
                 allSpellEffects[spellType].Effect(tiles);
@@ -236,7 +256,7 @@ public class Sc_TileManager : MonoBehaviour
 
         for (int i = 2; i < tiles.Count; i++)
         {
-            allNormalEffects[thisType].Effect(tiles);            
+            tiles[i].myTileEffect.Effect(tiles);            
             Sc_EventManager.instance.onUpdateStats.Invoke();
         }
 
@@ -271,9 +291,6 @@ public class Sc_TileManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
-            SceneManager.LoadScene(0);
-
         ManageTiles();
     }
 }

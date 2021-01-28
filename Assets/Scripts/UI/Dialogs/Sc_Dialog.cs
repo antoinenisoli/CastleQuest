@@ -10,11 +10,8 @@ public class Sc_Dialog : MonoBehaviour
     Sc_GameManager gameManager;
     Sc_Map map;
     [SerializeField] GameObject bubble;
+    [SerializeField] Dialog dialogData;
     public bool playerSpeak = true;
-    [SerializeField] Transform[] positions;
-    [TextArea] [SerializeField] string[] startLines;
-    [TextArea] [SerializeField] string[] victoryLines;
-    [TextArea] [SerializeField] string[] defeatLines;
     string[] linesToPlay;
 
     int count;
@@ -27,14 +24,15 @@ public class Sc_Dialog : MonoBehaviour
     {
         map = FindObjectOfType<Sc_Map>();
         gameManager = FindObjectOfType<Sc_GameManager>();
+        gameManager.canPlay = false;
         mainText = GetComponentInChildren<Text>();
         group = GetComponent<CanvasGroup>();
         group.DOFade(0, 0);
         
-        if (startLines.Length > 0)
+        if (dialogData.startLines.Length > 0)
         {
             group.DOFade(1, 0.3f).SetDelay(0.3f);
-            StartCoroutine(NewDialog(startLines));
+            StartCoroutine(NewDialog(dialogData.startLines));
         }
     }
 
@@ -48,7 +46,7 @@ public class Sc_Dialog : MonoBehaviour
         this.defeat = defeat;
         playerSpeak = true;
         finished = false;
-        linesToPlay = defeat ? victoryLines : defeatLines;
+        linesToPlay = defeat ? dialogData.victoryLines : dialogData.defeatLines;
         group.DOFade(1, 0.3f).SetDelay(0.3f);
         StartCoroutine(NewDialog(linesToPlay));
     }
@@ -65,13 +63,11 @@ public class Sc_Dialog : MonoBehaviour
             mainText.DOComplete();
             mainText.DOFade(0, 0.3f);
             mainText.DOFade(1, 0.3f).SetDelay(0.3f);
-            mainText.DOText(lines[count], 0.3f).SetDelay(0.15f);
+            mainText.DOText(lines[count], 0f).SetDelay(0.3f);
             count++;
 
             yield return new WaitForSeconds(0.15f);
             bubble.transform.rotation = playerSpeak ? Quaternion.Euler(0, -180, 0) : Quaternion.identity;
-            bubble.transform.position = playerSpeak ? positions[0].position : positions[1].position;
-            mainText.transform.position = bubble.transform.position;
             playerSpeak = !playerSpeak;
         }
         else
@@ -83,6 +79,8 @@ public class Sc_Dialog : MonoBehaviour
 
             if (linesToPlay != null)
                 map.EndGame(defeat);
+            else
+                Sc_EventManager.instance.onGameStart.Invoke();
         }
     }
 
@@ -95,8 +93,8 @@ public class Sc_Dialog : MonoBehaviour
             {
                 if (linesToPlay != null && linesToPlay.Length > 0)
                     StartCoroutine(NewDialog(linesToPlay));
-                else if (startLines.Length > 0)
-                    StartCoroutine(NewDialog(startLines));
+                else if (dialogData.startLines.Length > 0)
+                    StartCoroutine(NewDialog(dialogData.startLines));
             }
         }
     }

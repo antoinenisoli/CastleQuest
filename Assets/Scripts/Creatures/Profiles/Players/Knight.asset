@@ -9,23 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a1ac08c3ff7d774e827cbd3ae53fd4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 5dcdf39280f163f478bec25640ede4b6, type: 3}
   m_Name: Knight
   m_EditorClassIdentifier: 
   name: Knight
   visualObject: {fileID: 4517617576486601604, guid: efa2eb5723163bc47bf4c0729c2d0847,
     type: 3}
   portrait: {fileID: 21300000, guid: 754c2886df4d91f4ca9564f40ec6c237, type: 3}
-  myStats:
-  - myStat: 0
+  life:
+    myStat: 0
     currentValue: 0
-    maxValue: 25
-  - myStat: 1
-    currentValue: 0
-    maxValue: 20
-  - myStat: 2
-    currentValue: 2
     maxValue: 50
-  - myStat: 3
-    currentValue: 2
+  mana:
+    myStat: 1
+    currentValue: 0
+    maxValue: 50
+  attack:
+    myStat: 2
+    currentValue: 1
+    maxValue: 50
+  defense:
+    myStat: 3
+    currentValue: 1
     maxValue: 50

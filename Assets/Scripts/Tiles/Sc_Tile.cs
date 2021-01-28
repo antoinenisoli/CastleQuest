@@ -5,25 +5,17 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using DG.Tweening;
 
-public enum TileType
-{
-    Mana,
-    Defense,
-    Life,
-    Attack,
-}
-
 public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     Sc_TileManager tileManager;
     Camera mainCam;
     SpriteRenderer spriteRender;
 
-    public TileType myType;
     public Vector2Int coordinates;
+    [HideInInspector] public TileEffect myTileEffect;
 
     [Header("Bonus")]
-    public SpellType currentEffect;
+    public SpellType currentSpell;
     [SerializeField] SpriteRenderer spellSpriteRenderer;
     [SerializeField] Sprite[] spellSprites;
     public int bonusValue = 0;
@@ -33,7 +25,6 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
     [SerializeField] GameObject fx;
     public bool highlight;
     [SerializeField] Material glowSprite;
-    [SerializeField] Sprite[] allSprites;
     Material baseMat;
 
     Vector3 mousePos;
@@ -42,6 +33,7 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 
     private void Awake()
     {
+        myTileEffect = GetComponent<TileEffect>();
         tileManager = FindObjectOfType<Sc_TileManager>();
         mainCam = Camera.main;
         spriteRender = GetComponentInChildren<SpriteRenderer>();
@@ -52,8 +44,8 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void SetEffect(SpellType type)
     {
-        currentEffect = type;
-        if (currentEffect == SpellType.None)
+        currentSpell = type;
+        if (currentSpell == SpellType.None)
         {
             spellSpriteRenderer.gameObject.SetActive(false);
             return;
@@ -70,37 +62,33 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
         bonusValue = value;
         bonusText.text = "+" + bonusValue;
         bonusText.gameObject.SetActive(bonusValue > 0);
-        switch (myType)
+        switch (myTileEffect.stat)
         {
-            case TileType.Mana:
+            case StatType.MP:
                 bonusText.color = Color.blue;
                 break;
-            case TileType.Defense:
+            case StatType.Defense:
                 bonusText.color = Color.green;
                 break;
-            case TileType.Life:
+            case StatType.HP:
                 bonusText.color = Color.red;
                 break;
-            case TileType.Attack:
+            case StatType.Attack:
                 bonusText.color = Color.yellow;
                 break;
         }
     }
 
-    public void Creation(int index)
+    public void Creation()
     {
         Vector3 baseScale = transform.localScale;
         transform.localScale = Vector3.one * 0.01f;
         transform.DOScale(baseScale, tileManager.tileBirthDuration);
-
-        System.Array array = System.Enum.GetValues(typeof(TileType));
-        spriteRender.sprite = allSprites[index];
-        myType = (TileType)array.GetValue(index);
     }
 
     public bool IsSameOf(Sc_Tile obj2)
     {
-        return myType == obj2.myType;
+        return myTileEffect.stat == obj2.myTileEffect.stat;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -157,6 +145,6 @@ public class Sc_Tile : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public override string ToString()
     {
-        return myType + " " + coordinates;
+        return myTileEffect.stat + " " + coordinates;
     }
 }

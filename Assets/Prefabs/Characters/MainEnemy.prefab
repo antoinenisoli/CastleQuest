@@ -53,9 +53,10 @@ MonoBehaviour:
     currentValue: 0
     maxValue: 50
   - myStat: 2
-    currentValue: 5
+    currentValue: 0
     maxValue: 50
   - myStat: 3
-    currentValue: 3
+    currentValue: 0
     maxValue: 50
   isDead: 0
+  points: 5
